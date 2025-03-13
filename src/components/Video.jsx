@@ -44,7 +44,7 @@ function Video() {
       <video ref={videoRef} src="/marvel.mp4" autoPlay muted></video>
       <div className="video-copy">
         <h1 ref={textRef} className="vidDarpan font-bebas">
-          DARPAN
+          SPOORTHI
         </h1>
       </div>
     </div>

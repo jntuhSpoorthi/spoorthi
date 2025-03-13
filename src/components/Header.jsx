@@ -60,9 +60,9 @@ export default function Header() {
           href="/"
         >
           <Image
-            src="/Darpan.png"
-            width={45}
-            height={45}
+            src="/favicon.png"
+            width={100}
+            height={100}
             alt="logo"
             className="opacity-80"
           />

@@ -52,14 +52,14 @@ function Hero() {
 
       <div className="text-white flex flex-col pt-[8rem] uppercase font-extrabold md:ml-[1rem] lg:ml-[2rem] px-5 ">
         <h1 ref={title} className="font-chakra sm:text-2xl opacity-0">
-          College of Engineering Aranmula Presents
+          Department of Electronics and Communication Engineering presents
         </h1>
         <div ref={subtitle} className="font-clash flex flex-wrap opacity-0">
           <span className="text-[4.5rem] sm:text-[6.5rem] md:text-[9rem] lg:text-[9rem]">
-            DARPAN
+            SPOORTHI
           </span>
           <span className="text-main_primary relative top-[-3rem] font-chakra text-stroke-black text-[7rem] md:text-[9rem]">
-            2023
+            2025
           </span>
         </div>
         <span
@@ -75,12 +75,12 @@ function Hero() {
         className="relative md:ml-10 opacity-0 flex flex-col font-bold bg-white w-fit text-xl rounded-md text-black p-2 pr-8 ml-[1.5rem] md:text-3xl  z-10"
       >
         <span className="font-chakra">
-          2023 <span className="font-clash">April</span>
+          2025 <span className="font-clash">April</span>
         </span>
         <span className="flex gap-2 text-[2rem] font-chakra font-bold">
-          26
+          16
           <b className="text-[16px]">TH</b>
-          27
+          17
           <b className="text-[16px]">TH</b>
         </span>
         <Image

@@ -10,14 +10,14 @@ export default function Marque2() {
             </div>
 
             <div className='marquee3 font-chakra tracking-widest text-main_primary/50'>
-                <h1 className="text font-black textStroke text-transparent">DARPAN RELOADED</h1>
-                <h1 className="text font-black">DARPAN RELOADED</h1>
-                <h1 className="text font-black textStroke text-transparent">DARPAN RELOADED</h1>
-                <h1 className="text font-black">DARPAN RELOADED</h1>
-                <h1 className="text font-black textStroke text-transparent">DARPAN RELOADED</h1>
-                <h1 className="text font-black">DARPAN RELOADED</h1>
-                <h1 className="text font-black textStroke text-transparent">DARPAN RELOADED</h1>
-                <h1 className="text font-black">DARPAN RELOADED</h1>
+                <h1 className="text font-black textStroke text-transparent">SPOORTHI</h1>
+                <h1 className="text font-black">SPOORTHI</h1>
+                <h1 className="text font-black textStroke text-transparent">SPOORTHI</h1>
+                <h1 className="text font-black">SPOORTHI</h1>
+                <h1 className="text font-black textStroke text-transparent">SPOORTHI</h1>
+                <h1 className="text font-black">SPOORTHI</h1>
+                <h1 className="text font-black textStroke text-transparent">SPOORTHI</h1>
+                <h1 className="text font-black">SPOORTHI</h1>
             </div>
         </section>
     )

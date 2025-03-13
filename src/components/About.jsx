@@ -7,8 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
   const trigger = useRef(null);
-  const aboutdarpan = useRef(null);
-  const aboutaec = useRef(null);
+  const aboutspoorthi = useRef(null);
+  const aboutjntuh = useRef(null);
 
   useEffect(() => {
     gsap.fromTo(
@@ -30,13 +30,13 @@ export default function About() {
       }
     );
     // gsap.fromTo(
-    //   aboutdarpan.current,
+    //   aboutspoorthi.current,
     //   { opacity: 0, y: 100 },
     //   {
     //     opacity: 1,
     //     y: 0,
     //     scrollTrigger: {
-    //       trigger: aboutdarpan.current,
+    //       trigger: aboutspoorthi.current,
     //       start: "top 70%",
     //       scrub: true,
     //       ease: "expo.eae-InOut",
@@ -44,13 +44,13 @@ export default function About() {
     //   }
     // );
     // gsap.fromTo(
-    //   aboutaec.current,
+    //   aboutjntuh.current,
     //   { opacity: 0, y: 100 },
     //   {
     //     opacity: 1,
     //     y: 0,
     //     scrollTrigger: {
-    //       trigger: aboutaec.current,
+    //       trigger: aboutjntuh.current,
     //       start: "top 80%",
     //       end: "bottom 80%",
     //       scrub: true,
@@ -69,7 +69,7 @@ export default function About() {
           ref={trigger}
           className="text-[4rem] sm:text-[5.5rem] md:text-[7.5rem] lg:text-[9.5rem] xl:text-[12.5rem] md:mt-4 lg:mt-12"
         >
-          <span className="text-main_primary">DARPAN</span>
+          <span className="text-main_primary">SPOORTHI</span>
         </span>
         <span className="text-[3.7rem] sm:text-[5rem] md:text-[7rem] lg:text-[9rem] xl:text-[12rem] md:mt-4 lg:mt-8">
           ?
@@ -77,38 +77,38 @@ export default function About() {
       </div>
       <div className="font-chakra text-base py-8 leading-[5px] xl:mt-4">
         <span
-          ref={aboutdarpan}
+          ref={aboutspoorthi}
           className="text-base font-medium text-white xl:text-xl"
         >
-          <b>DARPAN'23</b> the annual techno - cultural fest organized by
-          College of Engineering Aranmula, is an exiting event that celebrates
-          the technical expertise and artistic talents of aspiring engineers.
-          The event brings together participants from across the state, making
-          it one of the most prestigious event of it's kind. The <b>two-day</b>{" "}
-          mega event is a visual treat for attendees, transporting them to
-          another world with a variety of captivity performances by aspiring
-          engineers and artists. From technical competitions to cultural events{" "}
-          <b>DARPAN'23</b> offers a diverse range of activities that cater to
-          everyone's interests.
+          <b>SPOORTHI'25</b> is a national level Technical Symposium conducted
+          by the Department of ECE, JNTUHUCESTH. Spoorthi started in 2004 as
+          technical fest and right from its inception, it has received immense
+          response from students all over the state. Spoorthi offers a platform
+          for stugents to compete with the peers in a myraid of events that test
+          their mettle & knowledge in Electronics and Communication Engineering.
+          From technical competitions to cultural events <b>SPOORTHI'25</b>{" "}
+          offers a diverse range of activities that cater to everyone's
+          interests.
         </span>
       </div>
       <div className="absolute font-clash font-bold text-white">
         <span className="flex gap-6 text-[3.3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] xl:text-[5.5rem]">
-          About <Navlink name={"AEC"} link={"/#about"} />{" "}
+          About <Navlink name={"JNTUH"} link={"/#about"} />{" "}
         </span>
       </div>
       <div
-        ref={aboutaec}
+        ref={aboutjntuh}
         className="flex flex-col mt-8 lg:flex-row items-center gap-8 py-8"
       >
         <p className="text-white text-base xl:text-xl font-chakra font-medium">
-          The College of Engineering Aranmula established in 2014 is the 8th
-          Engineering College under the Co-operative Academy of Professional
-          Education. <b>CAPE</b> was formed to establish educational
-          institutions to provide education and training, research and
-          development and consultancy. The society is promoted by the
-          Co-operative Department of the government of Kerala and is an
-          autonomous society.
+          Jawaharlal Nehru Technological University of Hyderabad - University
+          College of Engineering, Science and Technology Hyderabad, is one of
+          the premier engineering colleges in the country. The college maintains
+          high standards of education and places emphasis on practical exposure
+          along with theoretical knowledge. The college churns hundreds of
+          students every year who join the industry to excel in their chosen
+          fields while striving for the technological achievement of the
+          country.
         </p>
 
         <video

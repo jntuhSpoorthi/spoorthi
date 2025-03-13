@@ -23,11 +23,7 @@ export default function RitModel() {
       title: "Workshops",
       image: "/slider/workshop.avif",
     },
-    {
-      id: 5,
-      title: "Proshows",
-      image: "/slider/proshow.jpeg",
-    },
+    
   ];
 
   React.useEffect(() => {
