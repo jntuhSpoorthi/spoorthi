@@ -2,8 +2,8 @@ import React from "react";
 import Navlink from "./Navlink";
 import Link from "next/link";
 import { FiArrowDownRight } from "react-icons/fi";
-import { FaInstagram, FaFacebookF } from "react-icons/fa";
-import {AiOutlineGlobal} from "react-icons/ai"
+import { FaInstagram, FaYoutube } from "react-icons/fa";
+// import {AiOutlineGlobal} from "react-icons/ai"
 
 export default function Footer() {
   function scrollToTop() {
@@ -56,16 +56,16 @@ export default function Footer() {
                 <AiOutlineGlobal size="3rem" />
               </Link> */}
               <Link
-                href="https://instagram.com/darpan_2023?igshid=YmMyMTA2M2Y="
+                href="https://www.instagram.com/spoorthi__2025?igsh=cXNoOWt6em9mcWJ2"
                 className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:text-main_primary"
               >
                 <FaInstagram size="3rem" />
               </Link>
               <Link
-                href="https://www.facebook.com/profile.php?id=100090947657195"
+                href="https://www.youtube.com/@Spoorthi2024-lm9xm"
                 className="social-links flex items-center justify-center grow-[1] min-w-[5rem] min-h-[12rem] hover:text-main_primary"
               >
-                <FaFacebookF size="3rem" />
+                <FaYoutube size="3rem" />
               </Link>
             </div>
           </div>
