@@ -16,14 +16,14 @@ function Team(props) {
   return (
     <div className="h-fit w-screen bg-soothing_black">
       <Head>
-        <title>Darpan23 - Teams</title>
+        <title>Spoorthi25 - Teams</title>
       </Head>
       <Header id="navbar" />
 
       <main>
         <div className='h-[15rem] z-20 md:h-[20rem] bg-[url("/banner.png")] object-fill text-white font-clash tracking-wide font-black flex flex-col items-center justify-center'>
           <span className="text-[1rem] pt-12 md:pt-16 md:text-[4rem]">
-            DARPAN' 23
+            SPOORTHI' 25
           </span>
           <span className="text-[2.5rem] tracking-wider">TEAM</span>
         </div>

@@ -156,19 +156,7 @@ export default function Header() {
                   PAGE <br /> 03
                 </p>
               </div>
-              <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
-                <Navlink name={"FAQ"} link={"/#faq"} setToggle={setOpen} />
-                {/* <Image
-                  src="/edgeTriangle.png"
-                  width={20}
-                  height={20}
-                  alt="edge"
-                  className="absolute bottom-[-1px] right-[-1px]"
-                /> */}
-                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 04
-                </p>
-              </div>
+              
               <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
                 <Navlink
                   name={"BROCHURE"}
@@ -183,7 +171,7 @@ export default function Header() {
                   className="absolute bottom-[-1px] right-[-1px]"
                 /> */}
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 05
+                  PAGE <br /> 04
                 </p>
               </div>
               <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
@@ -196,7 +184,7 @@ export default function Header() {
                   className="absolute bottom-[-1px] right-[-1px]"
                 /> */}
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 06
+                  PAGE <br /> 05
                 </p>
               </div>
             </div>

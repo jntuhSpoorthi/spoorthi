@@ -92,8 +92,8 @@ export default function About() {
         </span>
       </div>
       <div className="absolute font-clash font-bold text-white">
-        <span className="flex gap-6 text-[3.3rem] sm:text-[4rem] md:text-[4.5rem] lg:text-[5rem] xl:text-[5.5rem]">
-          About <Navlink name={"JNTUH"} link={"/#about"} />{" "}
+        <span className="flex gap-6 text-[3rem] sm:text-[3.5rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5rem]">
+          About <Navlink name={"JNTUHUCESTH"} link={"/#about"} />{" "}
         </span>
       </div>
       <div

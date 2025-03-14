@@ -8,7 +8,7 @@ function Soon() {
     return (
         <div className="signup relative">
             <Head>
-                <title>Darpan'23 Teams-Updating Soon</title>
+                <title>Spoorthi'25 Teams-Updating Soon</title>
             </Head>
             <Header />
             <main className="h-screen w-screen">
