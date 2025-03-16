@@ -67,7 +67,7 @@ export default function About() {
         <span>Thinking what is</span>
         <span
           ref={trigger}
-          className="text-[4rem] sm:text-[5.5rem] md:text-[7.5rem] lg:text-[9.5rem] xl:text-[12.5rem] md:mt-4 lg:mt-12"
+          className="text-[4rem] sm:text-[5rem] md:text-[7rem] lg:text-[9.5rem] xl:text-[12.5rem] md:mt-4 lg:mt-12"
         >
           <span className="text-main_primary">SPOORTHI</span>
         </span>
@@ -93,7 +93,7 @@ export default function About() {
       </div>
       <div className="absolute font-clash font-bold text-white">
         <span className="flex gap-6 text-[3rem] sm:text-[3.5rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5rem]">
-          About <Navlink name={"JNTUHUCESTH"} link={"/#about"} />{" "}
+          About <Navlink name={"JNTUH"} link={"/#about"} />{" "}
         </span>
       </div>
       <div

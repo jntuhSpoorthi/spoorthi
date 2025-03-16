@@ -43,7 +43,7 @@ function Video() {
     <div ref={triggerRef} className="video-section hidden xl:block">
       <video ref={videoRef} src="/marvel.mp4" autoPlay muted></video>
       <div className="video-copy">
-        <h1 ref={textRef} className="vidDarpan font-bebas">
+        <h1 ref={textRef} className="vidSpoorthi font-bebas">
           SPOORTHI
         </h1>
       </div>

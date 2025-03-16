@@ -55,7 +55,7 @@ function EventsDetails(props) {
               className="text-xl font-medium font-clash text-center"
               ref={subtitle}
             >
-              Darpan presents
+              Spoorthi presents
             </p>
             <h1
               className="text-[3rem] xl:text-[4rem] font-clash font-semibold text-center"
@@ -80,7 +80,7 @@ function EventsDetails(props) {
                     <div className="w-8 h-7 bg-white rounded-full border-[2px] border-white/70"></div>
                     <div className="absolute left-4 w-8 h-7 rounded-full border-[2px] border-white/70"></div>
                   </div>
-
+                  
                   <h3 className="font-medium text-[1.5rem] md:text-8 pb-2">
                     {props.content}
                   </h3>

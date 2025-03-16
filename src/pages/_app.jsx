@@ -79,7 +79,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/png" size="512x512" />
       </Head>
       {loading ? (
         <Loader />
