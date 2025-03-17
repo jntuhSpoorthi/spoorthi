@@ -51,6 +51,10 @@ function Hero() {
       ></video>
 
       <div className="text-white flex flex-col pt-[8rem] uppercase font-extrabold md:ml-[1rem] lg:ml-[2rem] px-5 ">
+        
+        <h1 ref={title} className="font-chakra sm:text-3xl m:text-3xl opacity-0">
+          <strong>JNTUHUCESTH</strong>
+        </h1>
         <h1 ref={title} className="font-chakra sm:text-2xl opacity-0">
           Department of Electronics and Communication Engineering presents
         </h1>

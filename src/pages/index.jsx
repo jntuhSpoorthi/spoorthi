@@ -44,6 +44,9 @@ const Home = () => {
           className="hidden xl:block italic relative w-full text-center top-[7rem] z-[10]"
         >
           <p className="text-white pl-[1.5rem] top-[6rem] uppercase font-clash font-bold text-[2.5rem] tracking-wide">
+            JNTUHUCESTH
+          </p>
+          <p className="text-white pl-[1.5rem] top-[6rem] uppercase font-clash font-bold text-[2.5rem] tracking-wide">
             DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING
           </p>
           <p className="text-white font-clash text-xl">PRESENTS</p>
