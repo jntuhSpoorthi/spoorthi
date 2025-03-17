@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaInstagram, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
@@ -89,12 +89,22 @@ function Team(props) {
                                 />
                               </Link>
                             )}
-                            <Link href={`${member.insta}`} className="">
-                              <FaInstagram
-                                size="2rem"
-                                className="text-white hover:text-[#9747ff] transition-all duration-500 ease-in-out"
-                              />
-                            </Link>
+                            {member.linkedin && (
+                              <Link href={`${member.linkedin}`} className="">
+                                <FaLinkedin
+                                  size="2rem"
+                                  className="text-white hover:text-[#9747ff] transition-all duration-500 ease-in-out"
+                                />
+                              </Link>
+                            )}
+                            {member.insta && (
+                              <Link href={`${member.insta}`} className="">
+                                <FaInstagram
+                                  size="2rem"
+                                  className="text-white hover:text-[#9747ff] transition-all duration-500 ease-in-out"
+                                />
+                              </Link>
+                            )}
                           </div>
                         </div>
                       </div>
