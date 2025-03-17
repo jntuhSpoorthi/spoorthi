@@ -1,22 +1,38 @@
 {
   "tabs": [
     {
-      "name": "Coordinator",
+      "name": "Core Team",
       "sections": [
         {
-          "name": "Council",
+          "name": "Main coordinator",
           "members": [
             {
               "id": "1",
-              "name": "Ajish S",
-              "post": "Darpan Coordinator",
+              "name": "Anish Ankati",
+              "post": "Student Main Coordinator",
               "img": "/teams/unknown.png",
               "insta": ""
             },
             {
               "id": "2",
-              "name": "Sherin V Thomas",
-              "post": "Student Coordinator",
+              "name": "Arjun",
+              "post": "Student Main Coordinator",
+              "img": "/teams/sherin.jpg",
+              "linkedin": "https://www.linkedin.com/in/sherin-thomas-",
+              "insta": "https://instagram.com/sherin._.thomas?igshid=ZDdkNTZiNTM="
+            },
+            {
+              "id": "3",
+              "name": "Sharmila",
+              "post": "Student Main Coordinator",
+              "img": "/teams/sherin.jpg",
+              "linkedin": "https://www.linkedin.com/in/sherin-thomas-",
+              "insta": "https://instagram.com/sherin._.thomas?igshid=ZDdkNTZiNTM="
+            },
+            {
+              "id": "4",
+              "name": "P.Veda Sri",
+              "post": "Student Main Coordinator",
               "img": "/teams/sherin.jpg",
               "linkedin": "https://www.linkedin.com/in/sherin-thomas-",
               "insta": "https://instagram.com/sherin._.thomas?igshid=ZDdkNTZiNTM="
@@ -24,40 +40,26 @@
           ]
         },
         {
-          "name": "Treasurers",
+          "name": "Finance",
           "members": [
             {
               "id": "t1",
-              "name": "Gladson T Lalu",
-              "post": "Treasurer",
+              "name": "Bhukya Rahul",
+              "post": "Finance",
               "img": "/teams/glad.jpeg",
               "insta": "https://www.instagram.com/__gladson",
               "linkedin": ""
             },
             {
               "id": "t2",
-              "name": "Tijin Idiculla Thomas",
-              "post": "Treasurer",
+              "name": "Aravind Pula",
+              "post": "Finance",
               "img": "/teams/Tijin_Thomas.jpg",
               "insta": "https://www.instagram.com/tjn_thomas",
               "linkedin": ""
-            },
-            {
-              "id": "t3",
-              "name": "Aleena Reji",
-              "post": "Treasurer",
-              "img": "/teams/Aleena_Reji.jpg",
-              "insta": "https://www.instagram.com/al_ee_na_2000/",
-              "linkedin": ""
-            },
-            {
-              "id": "t4",
-              "name": "Sreejith C S",
-              "post": "Treasurer",
-              "img": "/teams/Sreejith_CS.jpg",
-              "insta": "https://www.instagram.com/ft.sre_th/",
-              "linkedin": ""
             }
+            
+            
           ]
         },
         {
@@ -638,126 +640,88 @@
       ]
     },
     {
-      "name": "Design Team",
+      "name": "Technical Team",
       "sections": [
         {
-          "name": "Designers",
+          "name": "Technical Coordinators",
           "members": [
             {
               "id": "d1",
-              "name": "Devaraj (DRJ)",
-              "post": "Design Lead Coordinator",
+              "name": "Venkat Sai Preetham Ravula",
+              "post": "Technical Coordinator",
               "img": "/teams/Drj.png",
               "insta": "https://instagram.com/drj.____?igshid=MWYxNmZkY2Y=",
               "linkedin": ""
             },
             {
               "id": "d22",
-              "name": "Arjun Manoj",
-              "post": "Design Lead",
+              "name": "Vikshith Bommella",
+              "post": "Technical Coordinator",
               "img": "/teams/Arjun _Manoj.jpeg",
               "insta": "https://instagram.com/arjunmanoj17?igshid=ZDdkNTZiNTM=",
               "linkedin": ""
             },
             {
               "id": "d2",
-              "name": "Gowri Vijayan",
-              "post": "Design Co-Coordinator",
+              "name": "Sahithi Vakulabharanam",
+              "post": "Technical Coordinator",
               "img": "/teams/Gowri.png",
               "insta": "https://www.instagram.com/that_weird_artkid/",
               "linkedin": "https://www.linkedin.com/in/gowri-vijayan-8664a7253"
             },
             {
               "id": "d9",
-              "name": "Adhithiyan",
-              "post": "Design Lead",
+              "name": "Bhruhathi Chaganti",
+              "post": "Technical Coordinator",
               "img": "/teams/Adhithyan.png",
               "insta": "",
               "linkedin": ""
-            },
-            {
-              "id": "d3",
-              "name": "Aswin George Thomas",
-              "post": "Design Lead",
-              "img": "/teams/Aswin.png",
-              "insta": "https://www.instagram.com/aswin_thomas_369/",
-              "linkedin": "https://www.linkedin.com/in/aswingt65/"
-            },
-            {
-              "id": "d4",
-              "name": "Joel Joey",
-              "post": "Design Lead",
-              "img": "/teams/Joel.png",
-              "insta": "https://www.instagram.com/whats_in_a___name____/",
-              "linkedin": ""
-            },
-            {
-              "id": "d5",
-              "name": "Saoud Abdul Azeez",
-              "post": "Design Lead",
-              "img": "/teams/Saoud.png",
-              "insta": "https://instagram.com/saoud_parayil?igshid=MWYxNmZkY2Y=",
-              "linkedin": ""
-            },
-            {
-              "id": "d6",
-              "name": "Joe Varghese Abraham",
-              "post": "Design Lead",
-              "img": "/teams/Joe.png",
-              "insta": "https://www.instagram.com/joevargheseabraham/",
-              "linkedin": ""
             }
+            
           ]
         },
         {
-          "name": "Media Wing",
+          "name": " Technical Events ",
           "members": [
             {
               "id": "v1",
-              "name": "Anandhu Ajith ",
-              "post": "Media Lead",
+              "name": "Rohith ",
+              "post": "Event coordinator",
               "img": "/teams/Anandhu Ajith.jpeg",
               "insta": "",
               "linkedin": ""
             },
             {
               "id": "v2",
-              "name": "Abhiram",
-              "post": "Media Lead",
+              "name": "Shashank",
+              "post": "Event coordinator",
               "img": "/teams/Abhiram.jpg",
               "insta": "https://www.instagram.com/_.abiih",
               "linkedin": ""
             },
             {
               "id": "v3",
-              "name": "Mahith Tom Saji",
-              "post": "Media Lead",
+              "name": "Anisha",
+              "post": "Event coordinator",
               "img": "/teams/MAHITH TOM SAJI.jpg",
               "insta": "https://www.instagram.com/mahith.tom",
               "linkedin": ""
             },
             {
               "id": "v4",
-              "name": "Madhav",
-              "post": "Video-Editor Lead",
+              "name": "Bhagya",
+              "post": "Event coordinator",
               "img": "/teams/Madhav.png",
               "insta": "",
               "linkedin": ""
-            },
-            {
-              "id": "d9",
-              "name": "Adhithiyan",
-              "post": "Video-Editor Lead",
-              "img": "/teams/Adhithyan.png",
-              "insta": "",
-              "linkedin": ""
             }
+            
           ]
         }
       ]
     },
     {
-      "name": "Web Team",
+      "name": "Design Team",
       "sections": [
         {
           "name": "Developers",
