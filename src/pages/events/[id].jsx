@@ -128,7 +128,8 @@ function EventsDetails(props) {
                 <button
                   className="relative bottom-5 bg-white text-black w-full rounded-full p-2 font-medium hover:bg-gray hover:text-white transition duration-300 ease-in-out"
                   onClick={() => {
-                    props.reg == "Register Closed" ? null : setPopUp(true);
+                    // props.reg == "Register Closed" ? null : setPopUp(true);
+                    window.open(props.reglink);
                   }}
                 >
                   {props.reg}
@@ -136,7 +137,7 @@ function EventsDetails(props) {
               </div>
             </div>
 
-            {props.rulehead == "" ? null : (
+            {/* {props.rulehead == "" ? null : (
               <div className="font-clash flex flex-col mt-[2rem] p-3 md:p-6 rounded-xl justify-between w-full md:w-[90%] bg-gray/25">
                 <h1 className="font-semibold text-3xl">{props.rulehead}</h1>
                 <div className="flex flex-col gap-2 pt-4 text-lg md:text-xl">
@@ -155,14 +156,14 @@ function EventsDetails(props) {
                   {props.rule13 == "" ? null : <p>{props.rule13}</p>}
                 </div>
               </div>
-            )}
+            )} */}
           </div>
         </div>
 
         <Footer />
       </section>
 
-      {popUp && (
+      {/* {popUp && (
         <div className="fixed top-0 left-0 w-full h-full bg-black/50 z-50 flex justify-center items-center animate-fadeIn ">
           <div className="relative w-full h-full max-w-[90%] lg:max-w-[80%]  xl:max-w-[70%]   max-h-[90%] flex flex-col justify-center items-center">
             <div className="absolute top-0 right-0 p-4">
@@ -181,7 +182,7 @@ function EventsDetails(props) {
             ></iframe>
           </div>
         </div>
-      )}
+      )} */}
     </>
   );
 }
