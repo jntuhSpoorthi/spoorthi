@@ -212,21 +212,21 @@
           "members": [
             {
               "id": "m1",
-              "name": "Edwin liby",
-              "post": "Lead Developer / UI/UX",
-              "img": "/teams/Edwin.png",
-              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
-              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
-              "github": "https://github.com/Edwinliby"
+              "name": "Sai Kumar",
+              "post": "Dance Coordinator",
+              "img": "/teams/unknown.png",
+              "insta": "",
+              "linkedin": "",
+              "github": ""
             }, 
             {
               "id": "m2",
-              "name": "Gladson T Lalu",
-              "post": "Lead Developer",
-              "img": "/teams/Gladson.png",
-              "insta": "https://www.instagram.com/__gladson",
-              "linkedin": "https://in.linkedin.com/in/gladsontlalu",
-              "github": "https://github.com/gladson-lalu"
+              "name": "Akhila",
+              "post": "Dance Coordinator",
+              "img": "/teams/Akhila.jpg",
+              "insta": "",
+              "linkedin": "",
+              "github": ""
             }
           ]
         },

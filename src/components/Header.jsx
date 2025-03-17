@@ -119,76 +119,49 @@ export default function Header() {
             <div className="text-5xl font-clash font-black flex flex-col mt-14 ml-8 md:mt-12 gap-4 ">
               <div className="relative bg-main_primary text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
                 <Navlink name={"HOME"} link={"/"} setToggle={setOpen} />
-                {/* <Image
-                  src="/edgeTriangle.png"
-                  width={20}
-                  height={20}
-                  alt="edge"
-                  className="absolute bottom-[-1px] right-[-1px]"
-                /> */}
+
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-main_primary">
                   PAGE <br /> 01
                 </p>
               </div>
               <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
                 <Navlink name={"EVENTS"} link={"/events"} setToggle={setOpen} />
-                {/* <Image
-                  src="/edgeTriangle.png"
-                  width={20}
-                  height={20}
-                  alt="edge"
-                  className="absolute bottom-[-1px] right-[-1px]"
-                /> */}
+
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
                   PAGE <br /> 02
                 </p>
               </div>
               <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
-                <Navlink name={"ABOUT"} link={"/#about"} setToggle={setOpen} />
-                {/* <Image
-                  src="/edgeTriangle.png"
-                  width={20}
-                  height={20}
-                  alt="edge"
-                  className="absolute bottom-[-1px] right-[-1px]"
-                /> */}
+                <Navlink
+                  name={"MENTORS"}
+                  link={"/our-mentors"}
+                  setToggle={setOpen}
+                />
+
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
                   PAGE <br /> 03
                 </p>
               </div>
-              
               <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
-                <Navlink
-                  name={"BROCHURE"}
-                  link={"/Brochure.pdf"}
-                  setToggle={setOpen}
-                />
-                {/* <Image
-                  src="/edgeTriangle.png"
-                  width={20}
-                  height={20}
-                  alt="edge"
-                  className="absolute bottom-[-1px] right-[-1px]"
-                /> */}
+                <Navlink name={"TEAMS"} link={"/teams"} setToggle={setOpen} />
+
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
                   PAGE <br /> 04
                 </p>
               </div>
               <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
-                <Navlink name={"TEAMS"} link={"/teams"} setToggle={setOpen} />
-                {/* <Image
-                  src="/edgeTriangle.png"
-                  width={20}
-                  height={20}
-                  alt="edge"
-                  className="absolute bottom-[-1px] right-[-1px]"
-                /> */}
+                <Navlink
+                  name={"SPONSORS"}
+                  link={"/sponsors"}
+                  setToggle={setOpen}
+                />
                 <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
                   PAGE <br /> 05
                 </p>
               </div>
+
               <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
-                <Navlink name={"MENTORS"} link={"/#about"} setToggle={setOpen} />
+                <Navlink name={"ABOUT"} link={"/#about"} setToggle={setOpen} />
                 {/* <Image
                   src="/edgeTriangle.png"
                   width={20}

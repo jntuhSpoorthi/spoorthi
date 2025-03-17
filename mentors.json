@@ -1,0 +1,82 @@
+{
+      "sections": [
+        {
+          "name": "Chair person",
+          "members": [
+            {
+              "id": "mentor1",
+              "name": "Dr. A. Rajani",
+              "post": "Professor & Head",
+              "img": "/mentors/Rajani.jpg",
+              "insta": ""
+            }
+          ]
+        },
+        {
+          "name": "Faculty Co-ordinator",
+          "members": [
+            {
+              "id": "mentor2",
+              "name": "Dr. T. Madhavi Kumari",
+              "post": "Assoc. Professor",
+              "img": "/mentors/MadhaviKumari.jpg",
+              "insta": "",
+              "linkedin": ""
+            }
+          ]
+        },
+        {
+          "name": "Technical Committe",
+          "members": [
+            {
+              "id": "mentor3",
+              "name": "Dr. P. Chandrashekar Reddy",
+              "post": "Sr. Professor",
+              "img": "/mentors/Chandrashekar.png",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "mentor4",
+              "name": "Dr. M. Madhavi Latha",
+              "post": "Sr. Professor",
+              "img": "/mentors/MadhaviLatha.jpg",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "mentor5",
+              "name": "Dr. M. Asha Rani",
+              "post": "Sr. Professor",
+              "img": "/mentors/AshaRani.jpeg",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "mentor6",
+              "name": "Dr. T. Satya Savithri",
+              "post": "Sr. Professor",
+              "img": "/mentors/SatyaSavitri.jpeg",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "mentor7",
+              "name": "Dr. Anitha Sheela Kancharla",
+              "post": "Professor",
+              "img": "/mentors/AnithaSheela.jpg",
+              "insta": "",
+              "linkedin": ""
+            },
+            {
+              "id": "mentor8",
+              "name": "Dr. L. Pratap Reddy",
+              "post": "Professor",
+              "img": "/mentors/PratapReddy.jpg",
+              "insta": "",
+              "linkedin": ""
+            }
+          ]
+        }
+      ]
+}
