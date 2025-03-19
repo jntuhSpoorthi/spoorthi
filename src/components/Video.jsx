@@ -12,7 +12,7 @@ function Video() {
   useEffect(() => {
     videoRef.current.addEventListener("ended", () => {
       console.log("video ended");
-      videoRef.current.currentTime = 10;
+      videoRef.current.currentTime = 13;
       videoRef.current.play();
     });
     const tl = gsap.timeline({

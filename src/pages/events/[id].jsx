@@ -10,7 +10,7 @@ import { gsap } from "gsap";
 
 function EventsDetails(props) {
   //create a pop up for the event Registration showing the embeded form
-  const [popUp, setPopUp] = React.useState(false);
+  // const [popUp, setPopUp] = React.useState(false);
 
   const card = React.useRef(null);
   const title = React.useRef(null);
@@ -34,13 +34,13 @@ function EventsDetails(props) {
     );
   }, []);
 
-  React.useEffect(() => {
-    if (popUp) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
-    }
-  }, [popUp]);
+  // React.useEffect(() => {
+  //   if (popUp) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     document.body.style.overflow = "auto";
+  //   }
+  // }, [popUp]);
 
   return (
     <>

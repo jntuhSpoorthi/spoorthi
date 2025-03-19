@@ -17,8 +17,8 @@
               "id": "2",
               "name": "Arjun",
               "post": "Main Student Coordinator",
-              "img": "/teams/unknown.png",
-              "linkedin": "",
+              "img": "/teams/Arjun.jpg",
+              "linkedin": "https://www.linkedin.com/in/arjun-goud-muddagoni-a888aa231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
               "insta": "https://www.instagram.com/_arjun__gowd/"
             },
             {
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "name": "sponcers",
+          "name": "sponsers",
           "members": [
             {
               "id": "e1",
@@ -99,8 +99,9 @@
               "name": "Venkat Sai Preetham Ravula",
               "post": "Technical Coordinator",
               "img": "/teams/unknown.png",
-              "insta": "",
-              "linkedin": ""
+              "insta": "https://www.instagram.com/venkat_sai_preetham_ravula",
+              "linkedin": "https://www.linkedin.com/in/sai-preetham-ravula",
+              "github":"https://github.com/VSPR1"
             },
             {
               "id": "tc2",
@@ -133,10 +134,10 @@
           "members": [
             {
               "id": "te1",
-              "name": "Rohith ",
+              "name": "Rohith Reddy Godishela",
               "post": "Event coordinator",
-              "img": "/teams/unknown.png",
-              "insta": "",
+              "img": "/teams/Rohith.jpg",
+              "insta": "https://www.instagram.com/rohit_reddy__45/",
               "linkedin": ""
             },
             {
@@ -157,9 +158,9 @@
             },
             {
               "id": "te4",
-              "name": "Bhagya",
+              "name": "Bhagyalaxmi",
               "post": "Event coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/Bhagyalaxmi.jpg",
               "insta": "",
               "linkedin": ""
             }
@@ -172,9 +173,10 @@
               "id": "w1",
               "name": "Prem ",
               "post": "Workshop coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/Prem.png",
               "insta": "",
-              "linkedin": ""
+              "linkedin": "",
+              "github": "https://github.com/prem878"
             },
             {
               "id": "w2",
@@ -214,9 +216,9 @@
               "id": "m1",
               "name": "Sai Kumar",
               "post": "Dance Coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/SaiKumar.jpg",
               "insta": "",
-              "linkedin": "",
+              "linkedin": "https://www.linkedin.com/in/sai-badavath-059762354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
               "github": ""
             }, 
             {
@@ -227,6 +229,24 @@
               "insta": "",
               "linkedin": "",
               "github": ""
+            },
+            {
+              "id": "m3",
+              "name": "Saran Sai",
+              "post": "Dance Coordinator",
+              "img": "/teams/SaranSai.jpg",
+              "insta": "",
+              "linkedin": "",
+              "github": ""
+            },
+            {
+              "id": "m4",
+              "name": "Sushmitha",
+              "post": "Dance Coordinator",
+              "img": "/teams/Sushmitha.jpg",
+              "insta": "https://www.instagram.com/smile_y__01?igsh=MXZ4ZzVlbjBkbDljZQ==",
+              "linkedin": "",
+              "github": ""
             }
           ]
         },
@@ -234,22 +254,22 @@
           "name": "Arts & Crafts",
           "members": [
             {
-              "id": "edwin",
-              "name": "Edwin liby",
-              "post": "Lead Developer / UI/UX",
-              "img": "/teams/Edwin.png",
-              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
-              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
-              "github": "https://github.com/Edwinliby"
+              "id": "arts1",
+              "name": "G. Krishnaveni",
+              "post": "Coordinator",
+              "img": "/teams/Krishnaveni.jpg",
+              "insta": "",
+              "linkedin": "",
+              "github": ""
             },
             {
-              "id": "gladson",
-              "name": "Gladson T Lalu",
-              "post": "Lead Developer",
-              "img": "/teams/Gladson.png",
-              "insta": "https://www.instagram.com/__gladson",
-              "linkedin": "https://in.linkedin.com/in/gladsontlalu",
-              "github": "https://github.com/gladson-lalu"
+              "id": "arts2",
+              "name": "Sravani Vuppali",
+              "post": "Coordinator",
+              "img": "/teams/Sravani.jpg",
+              "insta": "",
+              "linkedin": "",
+              "github": ""
             }
           ]
         }
@@ -258,29 +278,7 @@
     {
       "name": "Design Team",
       "sections": [
-        {
-          "name": "Social Media",
-          "members": [
-            {
-              "id": "edwin",
-              "name": "Edwin liby",
-              "post": "Lead Developer / UI/UX",
-              "img": "/teams/Edwin.png",
-              "insta": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
-              "linkedin": "https://www.linkedin.com/in/edwin-liby-12b7a5220/",
-              "github": "https://github.com/Edwinliby"
-            },
-            {
-              "id": "gladson",
-              "name": "Gladson T Lalu",
-              "post": "Lead Developer",
-              "img": "/teams/Gladson.png",
-              "insta": "https://www.instagram.com/__gladson",
-              "linkedin": "https://in.linkedin.com/in/gladsontlalu",
-              "github": "https://github.com/gladson-lalu"
-            }
-          ]
-        },
+        
         {
           "name": "Web",
           "members": [
@@ -294,7 +292,29 @@
               "github": ""
             }
           ]
+        },{
+          "name": "Social Media",
+          "members": [
+            {
+              "id": "sm1",
+              "name": "Pranay",
+              "post": "Video Editor",
+              "img": "/teams/Pranay.jpg",
+              "insta": "https://www.instagram.com/pranay___16?igsh=MTJuaXBvMDZwa3NoZQ==",
+              "linkedin": "",
+              "github": ""
+            },
+            {
+              "id": "sm2",
+              "name": "Nithin",
+              "post": "Editor",
+              "img": "/teams/Nithin.jpg",
+              "insta": "https://www.instagram.com/b_nithin18/"
+              
+            }
+          ]
         }
+        
       ]
     }
   ]

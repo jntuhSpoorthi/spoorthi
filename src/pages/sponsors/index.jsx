@@ -1,7 +1,7 @@
 import { useState } from "react";
-import {  FaGlobe } from "react-icons/fa";
+// import {  FaGlobe } from "react-icons/fa";
 import Head from "next/head";
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -41,8 +41,8 @@ function Team(props) {
           ))}
         </div>
 
-        <div className="w-full h-fit pb-10 flex justify-center">
-          <div className="flex flex-col gap-10 px-4 lg:px-[6rem] md:pt-6 ">
+        <div className="w-full h-fit pb-10 flex justify-center items-center">
+          <div className="flex flex-col gap-10 px-4 lg:px-[6rem] md:pt-6 items-center">
             {tabs[index].sections.map((section) => (
               <div key={section.id}>
                 <h1 className="text-white font-clash uppercase font-semibold text-4xl py-4 pb-8">
