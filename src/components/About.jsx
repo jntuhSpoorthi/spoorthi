@@ -112,7 +112,7 @@ export default function About() {
         </p>
 
         <video
-          src="/About.mp4"
+          src="/About2.mp4"
           autoPlay
           loop
           muted

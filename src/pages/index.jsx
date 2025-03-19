@@ -60,7 +60,7 @@ const Home = () => {
 
       {isLoaded && <Clock />}
 
-      <EventSlider />
+      {/* <EventSlider /> */}
 
       {/* <Partical/> */}
 
