@@ -101,7 +101,7 @@
               "img": "/teams/unknown.png",
               "insta": "https://www.instagram.com/venkat_sai_preetham_ravula",
               "linkedin": "https://www.linkedin.com/in/sai-preetham-ravula",
-              "github":"https://github.com/VSPR1"
+              "github": "https://github.com/VSPR1"
             },
             {
               "id": "tc2",
@@ -144,8 +144,8 @@
               "id": "te2",
               "name": "Shashank",
               "post": "Event coordinator",
-              "img": "/teams/unknown.png",
-              "insta": "",
+              "img": "/teams/Shashank.jpg",
+              "insta": "https://www.instagram.com/shashi_023_/",
               "linkedin": ""
             },
             {
@@ -158,9 +158,9 @@
             },
             {
               "id": "te4",
-              "name": "Bhagyalaxmi",
+              "name": "Bhagyalakshmi",
               "post": "Event coordinator",
-              "img": "/teams/Bhagyalaxmi.jpg",
+              "img": "/teams/Bhagyalakshmi.jpg",
               "insta": "",
               "linkedin": ""
             }
@@ -220,7 +220,7 @@
               "insta": "",
               "linkedin": "https://www.linkedin.com/in/sai-badavath-059762354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
               "github": ""
-            }, 
+            },
             {
               "id": "m2",
               "name": "Akhila",
@@ -278,7 +278,6 @@
     {
       "name": "Design Team",
       "sections": [
-        
         {
           "name": "Web",
           "members": [
@@ -292,7 +291,8 @@
               "github": ""
             }
           ]
-        },{
+        },
+        {
           "name": "Social Media",
           "members": [
             {
@@ -310,11 +310,9 @@
               "post": "Editor",
               "img": "/teams/Nithin.jpg",
               "insta": "https://www.instagram.com/b_nithin18/"
-              
             }
           ]
         }
-        
       ]
     }
   ]

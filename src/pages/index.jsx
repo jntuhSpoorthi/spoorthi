@@ -12,7 +12,7 @@ import gsap from "gsap";
 import fsPromises from "fs/promises";
 import path from "path";
 import RitModel from "@/components/RitModel";
-import EventSlider from "@/components/EventSlider";
+// import EventSlider from "@/components/EventSlider";
 // import Partical from "@/components/Partical";
 
 const Home = () => {
