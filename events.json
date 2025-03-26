@@ -206,7 +206,7 @@
       {
         "id": "qr-hunt",
         "title": "QR HUNT",
-        "img": "/general_tech_events/displayHunt.png",
+        "img": "/games/displayHunt.png",
         "content": "A QR based treasure hunt",
         "description": "Your Way to Victory: Join the Hunt Today.",
         "c1name": "",
@@ -238,7 +238,7 @@
       {
         "id": "escape-room",
         "title": "Escape Room",
-        "img": "/general_tech_events/diaplsyEscape.png",
+        "img": "/games/displayEscape.png",
         "content": "",
         "description": "",
         "c1name": "",

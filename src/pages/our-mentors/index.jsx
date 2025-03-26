@@ -34,7 +34,7 @@ function Team(props) {
                   {section.members.map((member) => (
                     <div
                       key={member.id}
-                      className=" shadow-2xl hover:shadow-main_primary transition-all duration-500 ease-in-out"
+                      className=""
                     >
                       <div>
                         <Image

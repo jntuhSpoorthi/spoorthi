@@ -41,7 +41,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: #9747ff;
+  background-color: #f76e0c;
 }
 
 .hackNav:hover .navPageNo {

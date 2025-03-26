@@ -28,18 +28,7 @@ function Team(props) {
           <span className="text-[2.5rem] tracking-wider">OUR SPONSORS</span>
         </div>
 
-        <div className="text-[.8rem] md:text-[1rem] p-8 font-semibold font-chakra flex gap-4 md:gap-12 items-center justify-center text-white">
-          {tabs.map((tab, i) => (
-            <span
-              key={i}
-              className="rounded-full px-4 py-[.3rem] hover:bg-white/20 transition-all duration-500 ease-in-out"
-              style={{ border: index === i ? "1.75px solid #9747ff" : "none" }}
-              onClick={() => setIndex(i)}
-            >
-              {tab.name}
-            </span>
-          ))}
-        </div>
+        
 
         <div className="w-full h-fit pb-10 flex justify-center items-center">
           <div className="flex flex-col gap-10 px-4 lg:px-[6rem] md:pt-6 items-center">
@@ -64,34 +53,7 @@ function Team(props) {
                           className="object-cover w-[20rem] h-[22rem]"
                         />
                       </div>
-                      {/* <div className="flex flex-col p-2 bg-black bg-opacity-20 ">
-                        <div>
-                          <h1 className=" text-white font-chakra font-semibold text-[1.5rem] pt-4">
-                            {member.name}
-                          </h1>
-                          <p className="text-white font-chakra font-medium text-[1rem]">
-                            {member.post}
-                          </p>
-                        </div>
-                        <div className="flex justify-end pb-2">
-                          <div
-                            className={
-                              member.github
-                                ? "flex justify-between w-20"
-                                : "flex justify-end"
-                            }
-                          >
-                            {member.website && (
-                              <Link href={`${member.website}`} className="">
-                                <FaGlobe
-                                  size="2rem"
-                                  className="text-white hover:text-[#9747ff] transition-all duration-500 ease-in-out"
-                                />
-                              </Link>
-                            )}
-                          </div>
-                        </div>
-                      </div> */}
+                     
                     </div>
                   ))}
                 </div>              

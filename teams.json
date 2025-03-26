@@ -59,33 +59,8 @@
               "linkedin": "https://www.linkedin.com/in/aravind-pula-035bb2289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             }
           ]
-        },
-        {
-          "name": "sponsers",
-          "members": [
-            {
-              "id": "e1",
-              "name": "Albin Mathews Joseph",
-              "post": "Technical Event Manager",
-              "img": "/teams/albin.jpg",
-              "insta": "https://www.instagram.com/albinmathewsjoseph/",
-              "linkedin": "https://www.linkedin.com/in/albin-mathews-joseph-4b4b1b1b4/"
-            }
-          ]
-        },
-        {
-          "name": "Broadcasting",
-          "members": [
-            {
-              "id": "ce1",
-              "name": "BS Adhithya",
-              "post": "Cultural Event Manager",
-              "img": "/teams/BS Adhithya.jpg",
-              "insta": "https://instagram.com/_adhithya_bhaskar?igshid=ZDdkNTZiNTM=",
-              "linkedin": ""
-            }
-          ]
         }
+        
       ]
     },
     {
