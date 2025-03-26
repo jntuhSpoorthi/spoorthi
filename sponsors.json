@@ -12,97 +12,12 @@
               "post": "Main Student Coordinator",
               "img": "/sponsors/Mathworks.jpeg",
               "website": "https://in.mathworks.com/"
-            },
-            {
-              "id": "2",
-              "name": "Arjun",
-              "post": "Main Student Coordinator",
-              "img": "/sponsors/alumni.png",
-              "linkedin": "",
-              "website": "https://www.websitegram.com/_arjun__gowd/"
-            },
-            {
-              "id": "3",
-              "name": "Sharmila",
-              "post": "Main Student Coordinator",
-              "img": "/teams/Sharmila.jpg",
-              "linkedin": "",
-              "website": "https://www.websitegram.com/sharmila_684/"
-            },
-            {
-              "id": "4",
-              "name": "P.Veda Sri",
-              "post": "Main Student Coordinator",
-              "img": "/teams/Vedasri.jpg",
-              "linkedin": "",
-              "website": "https://www.websitegram.com/vedaa_04/"
-            }
-          ]
-        },
-        {
-          "name": "Co-Title Sponsors",
-          "members": [
-            {
-              "id": "f1",
-              "name": "Bhukya Rahul",
-              "post": "Finance",
-              "img": "/teams/Rahul.jpg",
-              "linkedin": "",
-              "website": "https://www.websitegram.com/_r_a_h_u_l_inc/"
-            },
-            {
-              "id": "f2",
-              "name": "Aravind Pula",
-              "post": "Finance",
-              "img": "/teams/Aravind.jpg",
-              "linkedin": "https://www.linkedin.com/in/aravind-pula-035bb2289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-              "website": ""
             }
           ]
         }
-      ]
-    },
-    {
-      "name": "Previous Sponsors",
-      "sections": [
-        {
-          "name": "",
-          "members": [
-            {
-              "id": "tc1",
-              "name": "Venkat Sai Preetham Ravula",
-              "post": "Technical Coordinator",
-              "img": "/teams/unknown.png",
-              "linkedin": "",
-              "website": ""
-            },
-            {
-              "id": "tc2",
-              "name": "Vikshith Bommella",
-              "post": "Technical Coordinator",
-              "img": "/teams/Vikshith.jpg",
-              "linkedin": "https://www.linked.com/in/vikshithbommella",
-              "website": ""
-            },
-            {
-              "id": "tc3",
-              "name": "Sahithi Vakulabharanam",
-              "post": "Technical Coordinator",
-              "img": "/teams/Sahithi.jpg",
-              "linkedin": "https://www.linkedin.com/in/sahithi-vakulabharanam-059a09260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-              "website": ""
-            },
-            {
-              "id": "tc4",
-              "name": "Bhruhathi Chaganti",
-              "post": "Technical Coordinator",
-              "img": "/teams/Bhruhathi.jpg",
-              "linkedin": "https://www.linkedin.com/in/bhruhathi-chaganti-2b9890227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-              "website": ""
-            }
-          ]
-        }
+        
       ]
     }
+    
   ]
 }

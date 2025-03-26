@@ -50,7 +50,7 @@ export default function Events({ posts, names }) {
             <span
               key={i}
               className="rounded-full px-4 py-[.3rem] hover:bg-white/20 transition-all duration-500 ease-in-out"
-              style={{ border: index === i ? "1.75px solid #9747ff" : "none" }}
+              style={{ border: index === i ? "1.75px solid #f76e0c" : "none" }}
               onClick={() => setIndex(i)}
             >
               {name}

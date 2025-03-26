@@ -32,8 +32,8 @@ function Team(props) {
           {tabs.map((tab, i) => (
             <span
               key={i}
-              className="rounded-full px-4 py-[.3rem] hover:bg-white/20 transition-all duration-500 ease-in-out"
-              style={{ border: index === i ? "1.75px solid #9747ff" : "none" }}
+              className="rounded-full px-4 py-[.3rem] hover:bg-white/20 transition-all duration-500 ease-in-out color"
+              style={{ border: index === i ? "1.75px solid  " : "none" }}
               onClick={() => setIndex(i)}
             >
               {tab.name}
@@ -42,14 +42,14 @@ function Team(props) {
         </div>
 
         <div className="w-full h-fit pb-10 flex justify-center">
-          <div className="flex flex-col gap-10 px-4 lg:px-[6rem] md:pt-6 ">
+          <div className="flex flex-col gap-1 px-4 lg:px-[4rem] md:pt-6 ">
             {tabs[index].sections.map((section) => (
               <div key={section.id}>
                 <h1 className="text-white font-clash uppercase font-semibold text-4xl py-4 pb-8">
                   {section.name}
                 </h1>
 
-                <div className="flex flex-wrap justify-evenly gap-16 w-fit h-fit pt-6 rounded-sm">
+                <div className="flex flex-wrap justify-evenly gap-6 w-fit h-fit pt-6 rounded-sm">
                   {section.members.map((member) => (
                     <div
                       key={member.id}
@@ -59,8 +59,8 @@ function Team(props) {
                         <Image
                           src={member.img}
                           alt={member.name}
-                          width={300}
-                          height={300}
+                          width={400}
+                          height={400}
                           className="object-cover w-[20rem] h-[22rem]"
                         />
                       </div>
@@ -77,7 +77,7 @@ function Team(props) {
                           <div
                             className={
                               member.github
-                                ? "flex justify-between w-20"
+                                ? "flex justify-between gap-2 justify-items-end"
                                 : "flex justify-end"
                             }
                           >
@@ -85,7 +85,7 @@ function Team(props) {
                               <Link href={`${member.github}`} className="">
                                 <FaGithub
                                   size="2rem"
-                                  className="text-white hover:text-[#9747ff] transition-all duration-500 ease-in-out"
+                                  className="text-white hover:text-[#] transition-all duration-500 ease-in-out"
                                 />
                               </Link>
                             )}
@@ -93,7 +93,7 @@ function Team(props) {
                               <Link href={`${member.linkedin}`} className="">
                                 <FaLinkedin
                                   size="2rem"
-                                  className="text-white hover:text-[#9747ff] transition-all duration-500 ease-in-out"
+                                  className="text-white hover:text-[#] transition-all duration-500 ease-in-out"
                                 />
                               </Link>
                             )}
@@ -101,7 +101,7 @@ function Team(props) {
                               <Link href={`${member.insta}`} className="">
                                 <FaInstagram
                                   size="2rem"
-                                  className="text-white hover:text-[#9747ff] transition-all duration-500 ease-in-out"
+                                  className="text-white hover:text-[#] transition-all duration-500 ease-in-out"
                                 />
                               </Link>
                             )}

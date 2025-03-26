@@ -42,10 +42,10 @@ export default function Footer() {
         </div>
 
         <div className="min-w-[18rem] grow-[1] text-white/70">
-          <div className="flex font-chakra italic justify-between border-gray/40 border-b-[1.5px] lg:border-t-[1.5px] xl:border-t-0 min-h-[7rem] items-center font-bold text-4xl pl-5 pr-4">
+          <div className="flex font-chakra italic justify-between border-gray/40 border-b-[1.5px] lg:border-t-[1.5px] xl:border-t-0 min-h-[7rem] items-center font-bold text-2xl lg:text-4xl pl-5 pr-4">
             <Navlink name={"#BETHEREORBETHESAME"} link={"/"} />
             <div className="text-white hover:-rotate-90 transform transition-all duration-500 ease-in-out">
-              <FiArrowDownRight onClick={scrollToTop} size="4rem" />
+              <FiArrowDownRight onClick={scrollToTop} size="4rem"  />
             </div>
           </div>
           <div>

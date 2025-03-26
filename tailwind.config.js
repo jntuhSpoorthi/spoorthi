@@ -13,8 +13,10 @@ module.exports = {
       },
       colors: {
         soothing_black: "#0E1111",
-        main_primary: "#9747FF",
-        primary: "#1E0B37",
+        // main_primary: "#9747FF",
+        main_primary: "#f76e0c",
+        // primary: "#1E0B37",
+        primary: "#c25304",
         gray: "#868888",
         footer: "#1B1B1B",
       },
