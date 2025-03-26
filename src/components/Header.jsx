@@ -5,11 +5,19 @@ import { Slant as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
 // import { useAuthContext } from "@/context/auth-context";
 import Navlink from "@/components/Navlink";
-
+import { useRouter } from "next/router";
 export default function Header() {
   const [isVisible, setIsVisible] = React.useState(true);
   const [isOpen, setOpen] = React.useState(false);
   // const { signInWithGoogle, appState, signOut } = useAuthContext();
+
+  const router = useRouter();
+
+  const getActiveClass = (path) => {
+    return router.pathname === path
+      ? "bg-main_primary text-white" // Apply active styles
+      : "text-white"; // Default styles
+  };
 
   React.useEffect(() => {
     if (isOpen) {
@@ -68,30 +76,6 @@ export default function Header() {
           />
         </Link>
 
-        {/* <div className="absolute right-2 z-[26] hidden md:block">
-          <div className="relative bg-main_primary text-white w-fit text-left pl-4 pr-2 py-1 rounded-[4px]">
-            {appState.userAuth ? (
-              <span
-                className="text-white hover:text-black font-chakra tracking-wide font-bold text-base cursor-pointer transition-all duration-300 ease-in-out"
-                onClick={signOut}>
-                LOG OUT
-              </span>
-            ) : (
-              <span
-                className="text-white hover:text-black font-chakra tracking-wide font-bold text-base cursor-pointer transition-all duration-300 ease-in-out"
-                onClick={signInWithGoogle}>
-                LOG IN
-              </span>
-            )}
-            <Image
-              src="/edgeTriangleSvg.svg"
-              width={20}
-              height={20}
-              alt="edge"
-              className="absolute bottom-[-1px] left-[-2px] mix-blend-multiply"
-            />
-          </div>
-        </div> */}
         <progress max="100" value="0"></progress>
       </header>
 
@@ -116,62 +100,62 @@ export default function Header() {
               />
               <div className="ml-4 border-l-[1.5px] border-gray/40 h-full"></div>
             </div>
-            <div className="text-5xl font-clash font-black flex flex-col mt-14 ml-8 md:mt-12 gap-4 ">
-              <div className="relative bg-main_primary text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+            
+            <div className="text-5xl font-clash font-black flex flex-col mt-14 ml-8 md:mt-12 gap-4">
+              <div
+                className={`relative ${getActiveClass(
+                  "/"
+                )} w-fit text-left pl-2 pr-4 py-1 rounded-[4px]`}
+              >
                 <Navlink name={"HOME"} link={"/"} setToggle={setOpen} />
-
-                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-main_primary">
-                  PAGE <br /> 01
-                </p>
               </div>
-              <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+
+              <div
+                className={`relative ${getActiveClass(
+                  "/events"
+                )} w-fit text-left pl-2 pr-4 py-1 rounded-[4px]`}
+              >
                 <Navlink name={"EVENTS"} link={"/events"} setToggle={setOpen} />
-
-                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 02
-                </p>
               </div>
-              <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+
+              <div
+                className={`relative ${getActiveClass(
+                  "/our-mentors"
+                )} w-fit text-left pl-2 pr-4 py-1 rounded-[4px]`}
+              >
                 <Navlink
                   name={"MENTORS"}
                   link={"/our-mentors"}
                   setToggle={setOpen}
                 />
-
-                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 03
-                </p>
               </div>
-              <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+
+              <div
+                className={`relative ${getActiveClass(
+                  "/teams"
+                )} w-fit text-left pl-2 pr-4 py-1 rounded-[4px]`}
+              >
                 <Navlink name={"TEAMS"} link={"/teams"} setToggle={setOpen} />
-
-                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 04
-                </p>
               </div>
-              <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+
+              <div
+                className={`relative ${getActiveClass(
+                  "/sponsors"
+                )} w-fit text-left pl-2 pr-4 py-1 rounded-[4px]`}
+              >
                 <Navlink
                   name={"SPONSORS"}
                   link={"/sponsors"}
                   setToggle={setOpen}
                 />
-                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 05
-                </p>
               </div>
 
-              <div className="relative hackNav hover:bg-white hover:text-black text-white w-fit text-left pl-2 pr-4 py-1 rounded-[4px]">
+              <div
+                className={`relative ${getActiveClass(
+                  "/#about"
+                )} w-fit text-left pl-2 pr-4 py-1 rounded-[4px]`}
+              >
                 <Navlink name={"ABOUT"} link={"/#about"} setToggle={setOpen} />
-                {/* <Image
-                  src="/edgeTriangle.png"
-                  width={20}
-                  height={20}
-                  alt="edge"
-                  className="absolute bottom-[-1px] right-[-1px]"
-                /> */}
-                <p className="absolute right-[-2rem] top-[2px] text-[8px] font-bold text-transparent navPageNo">
-                  PAGE <br /> 06
-                </p>
               </div>
             </div>
           </div>
