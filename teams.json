@@ -10,7 +10,7 @@
               "id": "1",
               "name": "Anish Ankati",
               "post": "Main Student Coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/Anish.png",
               "insta": "https://www.instagram.com/anish_ankathi/"
             },
             {
@@ -73,7 +73,7 @@
               "id": "tc1",
               "name": "Venkat Sai Preetham Ravula",
               "post": "Technical Coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/Preetham.jpg",
               "insta": "https://www.instagram.com/venkat_sai_preetham_ravula",
               "linkedin": "https://www.linkedin.com/in/sai-preetham-ravula",
               "github": "https://github.com/VSPR1"
@@ -127,7 +127,7 @@
               "id": "te3",
               "name": "Anisha",
               "post": "Event coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/Anisha.jpg",
               "insta": "",
               "linkedin": ""
             },
@@ -148,7 +148,7 @@
               "id": "w1",
               "name": "Prem ",
               "post": "Workshop coordinator",
-              "img": "/teams/Prem.png",
+              "img": "/teams/Premkumar.jpg",
               "insta": "",
               "linkedin": "",
               "github": "https://github.com/prem878"
@@ -165,7 +165,7 @@
               "id": "w3",
               "name": "Vignatha",
               "post": "Workshop coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/Vignatha.jpg",
               "insta": "",
               "linkedin": ""
             },
@@ -173,7 +173,7 @@
               "id": "w4",
               "name": "Gayatri",
               "post": "Workshop coordinator",
-              "img": "/teams/unknown.png",
+              "img": "/teams/Gayatri.jpg",
               "insta": "",
               "linkedin": ""
             }
@@ -275,12 +275,24 @@
               "name": "Pranay",
               "post": "Video Editor",
               "img": "/teams/Pranay.jpg",
-              "insta": "https://www.instagram.com/pranay___16?igsh=MTJuaXBvMDZwa3NoZQ==",
-              "linkedin": "",
-              "github": ""
+              "insta": "https://www.instagram.com/pranay___16?igsh=MTJuaXBvMDZwa3NoZQ=="
             },
             {
               "id": "sm2",
+              "name": "Maheshwar",
+              "post": "Editor",
+              "img": "/teams/unknown.png",
+              "insta": "https://www.instagram.com/b_nithin18/"
+            },
+            {
+              "id": "sm3",
+              "name": "Vishnu",
+              "post": "Editor",
+              "img": "/teams/Vishnu.jpg",
+              "insta": "https://www.instagram.com/_sonu_275_/"
+            },
+            {
+              "id": "sm4",
               "name": "Nithin",
               "post": "Editor",
               "img": "/teams/Nithin.jpg",
