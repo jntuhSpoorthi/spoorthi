@@ -63,14 +63,14 @@ export default function Events({ posts, names }) {
             individualPosts.map((post) => (
               <div
                 ref={animate}
-                className="relative w-[21rem] h-[20rem] hover:scale-105 rounded-md overflow-hidden hover:shadow-lg hover:shadow-main_primary/80 transition-all duration-500 ease-in-out"
+                className="relative w-[15rem] h-[20rem] hover:scale-105 rounded-md overflow-hidden hover:shadow-lg hover:shadow-main_primary/80 transition-all duration-500 ease-in-out"
                 key={post.id}
               >
                 <Link href={`/events/${post.id}`}>
                   <Image
                     src={post.img}
-                    width={500}
-                    height={500}
+                    width={600}
+                    height={800}
                     alt="Event's Image"
                     className="cursor-pointer object-fill transform transition-all duration-500 ease-in-out"
                   />
