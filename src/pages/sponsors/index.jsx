@@ -34,14 +34,14 @@ function Sponsors( props ) {
                   {section.members.map((member) => (
                     <div 
                       key={member.id} 
-                      className="group relative w-[20rem] h-[22rem] overflow-hidden  transition-all duration-500 ease-in-out"
+                      className="group relative w-[15rem] h-[15rem] overflow-hidden "
                     >
                       <div className="absolute inset-0 flex items-center justify-center">
                         <Image 
                           src={member.img} 
                           alt={member.name} 
                           fill
-                          className="object-contain group-hover:scale-105 transition-transform duration-300"
+                          className="object-contain "
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                       </div>

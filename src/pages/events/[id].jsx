@@ -89,14 +89,16 @@ function EventsDetails(props) {
                   <div className="grid grid-cols-2 pt-6 text-[1.1rem] tracking-wide w-fit font-medium">
                     <div className="flex flex-col pr-4">
                       {props.pricepool != false && <span>Prize Pool :</span>}
-                      <span>Reg Fee :</span>
-                      <span>End Date :</span>
+                      {props.regfee != false && <span>Reg Fee :</span>}
+                      <span>Event Date :</span>
                     </div>
                     <div className="flex flex-col text-white font-bold">
                       {props.pricepool != false && (
                         <span className="font-normal"> ₹{props.pricepool}</span>
                       )}
+                      {props.regfee != false && (
                       <span className="font-normal"> ₹{props.regfee}</span>
+                      )}
                       <span className="font-normal"> {props.enddate}</span>
                     </div>
                   </div>
@@ -137,7 +139,7 @@ function EventsDetails(props) {
               </div>
             </div>
 
-            {/* {props.rulehead == "" ? null : (
+            {props.rulehead == "" ? null : (
               <div className="font-clash flex flex-col mt-[2rem] p-3 md:p-6 rounded-xl justify-between w-full md:w-[90%] bg-gray/25">
                 <h1 className="font-semibold text-3xl">{props.rulehead}</h1>
                 <div className="flex flex-col gap-2 pt-4 text-lg md:text-xl">
@@ -156,7 +158,7 @@ function EventsDetails(props) {
                   {props.rule13 == "" ? null : <p>{props.rule13}</p>}
                 </div>
               </div>
-            )} */}
+            )}
           </div>
         </div>
 

@@ -59,7 +59,7 @@ const Home = () => {
       </section>
 
       {isLoaded && <Clock />}
-
+ 
       {/* <EventSlider /> */}
 
       {/* <Partical/> */}

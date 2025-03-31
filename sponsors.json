@@ -14,6 +14,17 @@
               "website": "https://in.mathworks.com/"
             }
           ]
+        },
+        {
+          "name": "Student  outreach   partner",
+          "members": [
+            {
+              "id": "2",
+              "name": "StudentTribe",
+              "img": "/sponsors/studentTribe.png",
+              "website": "https://studenttribe.in/"
+            }
+          ]
         }
         
       ]
