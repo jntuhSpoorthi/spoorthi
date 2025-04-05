@@ -230,18 +230,27 @@
           "members": [
             {
               "id": "arts1",
-              "name": "G. Krishnaveni",
+              "name": "Sravani Vuppali",
               "post": "Coordinator",
-              "img": "/teams/Krishnaveni.jpg",
+              "img": "/teams/Sravani.jpg",
               "insta": "",
               "linkedin": "",
               "github": ""
             },
             {
               "id": "arts2",
-              "name": "Sravani Vuppali",
+              "name": "Parimala",
               "post": "Coordinator",
-              "img": "/teams/Sravani.jpg",
+              "img": "/teams/Parimala.jpg",
+              "insta": "",
+              "linkedin": "",
+              "github": ""
+            },
+            {
+              "id": "arts3",
+              "name": "G. Krishnaveni",
+              "post": "Coordinator",
+              "img": "/teams/Krishnaveni.jpg",
               "insta": "",
               "linkedin": "",
               "github": ""
