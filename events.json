@@ -87,7 +87,7 @@
         "enddate": "2025-04-17",
         "reglink": "https://forms.gle/6tbTXHEDSxNuvPaw8",
         "reg": "Register Here",
-        "ruleheader": false,
+        "ruleheader": "Guidelines",
         "rules": {
           "rule1": "2 Students per team.",
           "rule2": "Round 1: BASIC LEVEL QUIZ",
@@ -301,6 +301,37 @@
           "rule12": "",
           "rule13": ""
         }
+      },{
+        "id": "robotic-workshop",
+        "title": "Design, Build & Control your Robot 🤖",
+        "img": "/workshop/robotic.png",
+        "content": "Hands-On Learning with Robotics from industry experts.",
+        "description": "Dive into the world of robotics with a power-packed hands-on workshop designed for students, hobbyists, and tech enthusiasts! Learn, create, and control your own robot—all in one day.",
+        "c1name": "Aravind",
+        "c2name": "Heervardhan",
+        "c1no": "9398331508",
+        "c2no": "8978323602",
+        "pricepool": false,
+        "regfee": "1000",
+        "enddate": "2025-04-11",
+        "reglink": "https://docs.google.com/forms/d/e/1FAIpQLSdy4v-Ko727EjAqygRb598Lf0L415Mq8rKu0-5b1GJgP1vvWg/viewform",
+        "reg": "Register Here",
+        "ruleheader": "Guidelines",
+        "rules": {
+          "rule1": "📌 We strongly encourage participants to bring their own laptops to the event. However, if you are unable to bring your own laptop, our coordinators will be happy to provide you with one.",
+          "rule3": "📌 Don't miss out on this chance to take your abilities to the next level! 🫱🏼‍🫲🏼",
+          "rule2": " Additionally, spot registration will be available for those who wish to register on the day of the event.❕",
+          "rule4": "",
+          "rule5": "",
+          "rule6": "",
+          "rule7": "",
+          "rule8": "",
+          "rule9": "",
+          "rule10": "",
+          "rule11": "",
+          "rule12": "",
+          "rule13": ""
+        }
       }
     ],
     [
@@ -318,7 +349,7 @@
         "regfee": false,
         "enddate": "2025-04-3",
         "reglink": "https://events.studenttribe.in/event/67e60ecbe5c536d5ced16bb9",
-        "reg": "Register Here",
+        "reg": "Registration Closed",
         "ruleheader": "Guildelines",
         "rules": {
           "rule1": "📌 We strongly encourage participants to bring their own laptops to the event.",
