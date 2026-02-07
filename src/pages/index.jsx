@@ -8,14 +8,14 @@ import Marque2 from "@/components/Marque2";
 import Footer from "@/components/Footer";
 import Clock from "@/components/Clock";
 import Map from "@/components/Map";
+import GallerySection from "@/components/Gallery2025";
+import Souvenir from "@/components/Souvenir";
 import gsap from "gsap";
 import fsPromises from "fs/promises";
 import path from "path";
 import RitModel from "@/components/RitModel";
-// import EventSlider from "@/components/EventSlider";
-// import Partical from "@/components/Partical";
 
-const Home = () => {
+const Home = ({ galleryData, siteConfig }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -30,10 +30,17 @@ const Home = () => {
 
   const stagger = useRef(null);
 
+  // Get values from siteConfig
+  const festName = siteConfig?.festName || "SPOORTHI";
+  const currentYear = siteConfig?.currentYear || "2026";
+  const tagline = siteConfig?.tagline || "National Level Technical Symposium";
+  const festDates = siteConfig?.festDates?.displayText || "April 8th & 9th, 2026";
+
   return (
     <div className="bg-black h-fit">
       <Head>
-        <title>Spoorthi 2025</title>
+        <title>{festName} {currentYear}</title>
+        <meta name="description" content={`${festName} ${currentYear} - ${tagline} by ECE Department, JNTUHUCESTH. ${festDates}`} />
       </Head>
 
       <Header id="navbar" />
@@ -44,41 +51,48 @@ const Home = () => {
           className="hidden xl:block italic relative w-full text-center top-[7rem] z-[10]"
         >
           <p className="text-white pl-[1.5rem] top-[6rem] uppercase font-clash font-bold text-[2.5rem] tracking-wide">
-            JNTUH UNIVERSITY COLLEGE OF ENGINEERING SCIENCE AND TECHNOLOGY HYDERABAD
+            {siteConfig?.college || "JNTUH UNIVERSITY COLLEGE OF ENGINEERING SCIENCE AND TECHNOLOGY HYDERABAD"}
           </p>
           <p className="text-white pl-[1.5rem] top-[6rem] uppercase font-clash font-bold text-[2.5rem] tracking-wide">
-            DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING
+            {siteConfig?.department || "DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING"}
           </p>
           <p className="text-white font-clash text-xl">PRESENTS</p>
         </div>
 
         <div>
-          <Hero />
+          <Hero siteConfig={siteConfig} />
           <Video />
         </div>
       </section>
 
-      {isLoaded && <Clock />}
- 
-      {/* <EventSlider /> */}
-
-      {/* <Partical/> */}
+      {isLoaded && <Clock siteConfig={siteConfig} />}
 
       <div className="bg-gradient-to-b from-primary to-transparent">
         <RitModel />
         <section id="about">
-          <About />
+          <About siteConfig={siteConfig} />
         </section>
       </div>
 
+      {/* Gallery Preview Section */}
+      <section id="gallery" className="relative">
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-soothing_black/80 to-soothing_black pointer-events-none"></div>
+        <GallerySection
+          galleryData={galleryData}
+          siteConfig={siteConfig}
+          previewMode={true}
+          maxItems={8}
+          showTitle={true}
+        />
+      </section>
+
+      {/* Souvenir Section - Only shows if enabled in siteConfig */}
+      <Souvenir siteConfig={siteConfig} />
+
       <Marque2 />
 
-      {/* <section id="faq">
-        <Faq />
-      </section> */}
-
       <Map />
-      <Footer />
+      <Footer siteConfig={siteConfig} />
     </div>
   );
 };
@@ -86,11 +100,23 @@ const Home = () => {
 export default Home;
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "/data.json");
-  const jsonData = await fsPromises.readFile(filePath);
-  const objectData = JSON.parse(jsonData);
+  const dataFilePath = path.join(process.cwd(), "/data.json");
+  const dataJsonData = await fsPromises.readFile(dataFilePath);
+  const objectData = JSON.parse(dataJsonData);
+
+  const galleryFilePath = path.join(process.cwd(), "/galleryConfig.json");
+  const galleryJsonData = await fsPromises.readFile(galleryFilePath);
+  const galleryData = JSON.parse(galleryJsonData);
+
+  const siteConfigFilePath = path.join(process.cwd(), "/siteConfig.json");
+  const siteConfigJsonData = await fsPromises.readFile(siteConfigFilePath);
+  const siteConfig = JSON.parse(siteConfigJsonData);
 
   return {
-    props: objectData,
+    props: {
+      ...objectData,
+      galleryData,
+      siteConfig,
+    },
   };
 }
