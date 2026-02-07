@@ -9,7 +9,7 @@ export default function Header() {
   const [isVisible, setIsVisible] = React.useState(true);
   const [isOpen, setOpen] = React.useState(false);
   const [lastScrollY, setLastScrollY] = React.useState(0);
-  
+
   const router = useRouter();
 
   const getActiveClass = (path) => {
@@ -21,7 +21,7 @@ export default function Header() {
   React.useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-  
+
       // If user is scrolling up, open the menu and make navbar visible
       if (currentScrollY < lastScrollY) {
         setOpen(false); // Open the menu if scrolling up
@@ -31,17 +31,17 @@ export default function Header() {
       else if (currentScrollY > window.innerHeight) {
         setIsVisible(false); // Hide navbar when scrolling down
       }
-  
+
       // Update last scroll position
       setLastScrollY(currentScrollY);
     };
-  
+
     window.addEventListener("scroll", handleScroll, { passive: true });
-  
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
-  
-  
+
+
 
 
   return (
@@ -102,7 +102,7 @@ export default function Header() {
               />
               <div className="ml-4 border-l-[1.5px] border-gray/40 h-full"></div>
             </div>
-            
+
             <div className="text-5xl font-clash font-black flex flex-col mt-14 ml-8 md:mt-12 gap-4">
               <div
                 className={`relative ${getActiveClass(
@@ -148,6 +148,18 @@ export default function Header() {
                 <Navlink
                   name={"SPONSORS"}
                   link={"/sponsors"}
+                  setToggle={setOpen}
+                />
+              </div>
+
+              <div
+                className={`relative ${getActiveClass(
+                  "/gallery"
+                )} w-fit text-left pl-2 pr-4 py-1 rounded-[4px]`}
+              >
+                <Navlink
+                  name={"GALLERY"}
+                  link={"/gallery"}
                   setToggle={setOpen}
                 />
               </div>

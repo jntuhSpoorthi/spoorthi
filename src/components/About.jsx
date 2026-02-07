@@ -5,10 +5,17 @@ import Navlink from "./Navlink";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function About() {
+export default function About({ siteConfig }) {
   const trigger = useRef(null);
   const aboutspoorthi = useRef(null);
   const aboutjntuh = useRef(null);
+
+  // Get values from siteConfig with fallbacks
+  const festName = siteConfig?.festName || "SPOORTHI";
+  const currentYear = siteConfig?.currentYear || "2026";
+  const shortYear = currentYear.slice(-2); // Gets "26" from "2026"
+  const aboutSpoorthiText = siteConfig?.about?.spoorthi || `${festName} is a national level Technical Symposium conducted by the Department of ECE, JNTUHUCESTH. Spoorthi started in 2004 as technical fest and right from its inception, it has received immense response from students all over the state. Spoorthi offers a platform for students to compete with peers in a myriad of events that test their mettle & knowledge in Electronics and Communication Engineering. From technical competitions to cultural events, ${festName} offers a diverse range of activities that cater to everyone's interests.`;
+  const aboutCollegeText = siteConfig?.about?.college || "Jawaharlal Nehru Technological University of Hyderabad - University College of Engineering, Science and Technology Hyderabad, is one of the premier engineering colleges in the country. The college maintains high standards of education and places emphasis on practical exposure along with theoretical knowledge. The college churns hundreds of students every year who join the industry to excel in their chosen fields while striving for the technological achievement of the country.";
 
   useEffect(() => {
     gsap.fromTo(
@@ -29,35 +36,6 @@ export default function About() {
         },
       }
     );
-    // gsap.fromTo(
-    //   aboutspoorthi.current,
-    //   { opacity: 0, y: 100 },
-    //   {
-    //     opacity: 1,
-    //     y: 0,
-    //     scrollTrigger: {
-    //       trigger: aboutspoorthi.current,
-    //       start: "top 70%",
-    //       scrub: true,
-    //       ease: "expo.eae-InOut",
-    //     },
-    //   }
-    // );
-    // gsap.fromTo(
-    //   aboutjntuh.current,
-    //   { opacity: 0, y: 100 },
-    //   {
-    //     opacity: 1,
-    //     y: 0,
-    //     scrollTrigger: {
-    //       trigger: aboutjntuh.current,
-    //       start: "top 80%",
-    //       end: "bottom 80%",
-    //       scrub: true,
-    //       ease: "expo.eae-InOut",
-    //     },
-    // //   }
-    // );
   }, []);
 
   return (
@@ -69,7 +47,7 @@ export default function About() {
           ref={trigger}
           className="text-[4rem] sm:text-[5rem] md:text-[7rem] lg:text-[9.5rem] xl:text-[12.5rem] md:mt-4 lg:mt-12"
         >
-          <span className="text-main_primary">SPOORTHI</span>
+          <span className="text-main_primary">{festName}</span>
         </span>
         <span className="text-[3.7rem] sm:text-[5rem] md:text-[7rem] lg:text-[9rem] xl:text-[12rem] md:mt-4 lg:mt-8">
           ?
@@ -80,15 +58,7 @@ export default function About() {
           ref={aboutspoorthi}
           className="text-base font-medium text-white xl:text-xl"
         >
-          <b>SPOORTHI'25</b> is a national level Technical Symposium conducted
-          by the Department of ECE, JNTUHUCESTH. Spoorthi started in 2004 as
-          technical fest and right from its inception, it has received immense
-          response from students all over the state. Spoorthi offers a platform
-          for stugents to compete with the peers in a myraid of events that test
-          their mettle & knowledge in Electronics and Communication Engineering.
-          From technical competitions to cultural events <b>SPOORTHI'25</b>{" "}
-          offers a diverse range of activities that cater to everyone's
-          interests.
+          <b>{festName}'{shortYear}</b> {aboutSpoorthiText}
         </span>
       </div>
       <div className="absolute font-clash font-bold text-white">
@@ -101,14 +71,7 @@ export default function About() {
         className="flex flex-col mt-8 lg:flex-row items-center gap-8 py-8"
       >
         <p className="text-white text-base xl:text-xl font-chakra font-medium">
-          Jawaharlal Nehru Technological University of Hyderabad - University
-          College of Engineering, Science and Technology Hyderabad, is one of
-          the premier engineering colleges in the country. The college maintains
-          high standards of education and places emphasis on practical exposure
-          along with theoretical knowledge. The college churns hundreds of
-          students every year who join the industry to excel in their chosen
-          fields while striving for the technological achievement of the
-          country.
+          {aboutCollegeText}
         </p>
 
         <video

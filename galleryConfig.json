@@ -1,0 +1,343 @@
+{
+  "title": "PAST FEST MEMORIES",
+  "subtitle": "Relive the magic from our previous editions",
+  "categories": [
+    {
+      "id": "all",
+      "name": "All",
+      "icon": ""
+    },
+    {
+      "id": "technical",
+      "name": "Technical",
+      "icon": ""
+    },
+    {
+      "id": "cultural",
+      "name": "Cultural",
+      "icon": ""
+    },
+    {
+      "id": "games",
+      "name": "Games",
+      "icon": ""
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "icon": ""
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "icon": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "src": "/gallary/DSC04307.JPG",
+      "type": "image",
+      "category": "general",
+      "caption": "Spoorthi Salt Rangoli",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "src": "/gallary/dj_night.JPG",
+      "type": "image",
+      "category": "cultural",
+      "caption": "DJ Night",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "src": "/gallary/IMG-20250415-WA0051.jpg",
+      "type": "image",
+      "category": "cultural",
+      "caption": "Flash Mob Performance",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "src": "/gallary/DSC04320.JPG",
+      "type": "image",
+      "category": "general",
+      "caption": "",
+      "featured": true
+    },
+    {
+      "id": "6",
+      "src": "/gallary/general_mob.jpg",
+      "type": "image",
+      "category": "general",
+      "caption": "Flash Mob Logo Formation",
+      "featured": false
+    },
+    {
+      "id": "7",
+      "src": "/gallary/IMG-20250415-WA0046.jpg",
+      "type": "image",
+      "category": "cultural",
+      "caption": "Flash Mob Team",
+      "featured": false
+    },
+    
+    {
+      "id": "9",
+      "src": "/gallary/workshop_speaker.jpeg",
+      "type": "image",
+      "category": "workshop",
+      "caption": "IOT Workshop",
+      "featured": true
+    },
+    {
+      "id": "8",
+      "src": "/gallary/IMG-20250415-WA0048.jpg",
+      "type": "image",
+      "category": "cultural",
+      "caption": "Flash Mob Team",
+      "featured": false
+    },
+    {
+      "id": "10",
+      "src": "/gallary/workshop1.jpeg",
+      "type": "image",
+      "category": "workshop",
+      "caption": "IOT Workshop",
+      "featured": true
+    },
+    {
+      "id": "11",
+      "src": "/gallary/workshop2.jpeg",
+      "type": "image",
+      "category": "workshop",
+      "caption": "IOT Workshop",
+      "featured": false
+    },
+    {
+      "id": "12",
+      "src": "/gallary/sports1.jpeg",
+      "type": "image",
+      "category": "games",
+      "caption": "Sports",
+      "featured": false
+    },
+    
+    {
+      "id": "2",
+      "src": "/gallary/DSC04315.JPG",
+      "type": "image",
+      "category": "general",
+      "caption": "Directions Board",
+      "featured": false
+    },
+    {
+      "id": "13",
+      "src": "/gallary/sports2.jpeg",
+      "type": "image",
+      "category": "games",
+      "caption": "Team Spoorthi Mens Cricket Team",
+      "featured": true
+    },
+    {
+      "id": "14",
+      "src": "/gallary/projectExpo.jpeg",
+      "type": "image",
+      "category": "technical",
+      "caption": "Project Exhibition Contestants",
+      "featured": false
+    },
+    {
+      "id": "15",
+      "src": "/gallary/posteriza4.jpeg",
+      "type": "image",
+      "category": "technical",
+      "caption": "Posteriza Contestants",
+      "featured": false
+    },
+    {
+      "id": "16",
+      "src": "/gallary/posteriza1.jpeg",
+      "type": "image",
+      "category": "technical",
+      "caption": "Posteriza Winners",
+      "featured": true
+    },
+    {
+      "id": "17",
+      "src": "/gallary/exhipro_winners.jpeg",
+      "type": "image",
+      "category": "technical",
+      "caption": "Project Exhibition Winners",
+      "featured": true
+    },{
+      "id": "18",
+      "src": "/gallary/circuitrix_event.jpeg",
+      "type": "image",
+      "category": "technical",
+      "caption": "Circuitrix Event",
+      "featured": true
+    },{
+      "id": "20",
+      "src": "/gallary/DSC03136.JPG",
+      "type": "image",
+      "category": "games",
+      "caption": "Hall of Horror",
+      "featured": true
+    },{
+      "id": "21",
+      "src": "/gallary/posteriza1.jpeg",
+      "type": "image",
+      "category": "technical",
+      "caption": "Posteriza Winners",
+      "featured": true
+    },
+    {
+      "id": "22",
+      "src": "/gallary/we_ece.jpg",
+      "type": "image",
+      "category": "general",
+      "caption": "Arts and Crafts",
+      "featured": true
+    },
+    {
+      "id": "23",
+      "src": "/gallary/DSC03403.JPG",
+      "type": "image",
+      "category": "cultural",
+      "caption": "Flash Mob at Fest",
+      "featured": true
+    },
+    {
+      "id": "24",
+      "src": "/gallary/DSC04059.JPG",
+      "type": "image",
+      "category": "general",
+      "caption": "Student Art",
+      "featured": true
+    },
+    {
+      "id": "25",
+      "src": "/gallary/DSC04048.JPG",
+      "type": "image",
+      "category": "general",
+      "caption": "Student Art",
+      "featured": true
+    },
+    {
+      "id": "26",
+      "src": "/gallary/DSC04060.JPG",
+      "type": "image",
+      "category": "general",
+      "caption": "Student Art",
+      "featured": true
+    },
+    {
+      "id": "27",
+      "src": "/gallary/DSC04089.JPG",
+      "type": "image",
+      "category": "games",
+      "caption": "Game Stall",
+      "featured": false
+    },
+    {
+      "id": "28",
+      "src": "/gallary/DSC04090.JPG",
+      "type": "image",
+      "category": "games",
+      "caption": "Game Stall",
+      "featured": false
+    },
+    {
+      "id": "29",
+      "src": "/gallary/DSC04351.JPG",
+      "type": "image",
+      "category": "technical",
+      "caption": "Escape Room Game",
+      "featured": false
+    },
+    {
+      "id": "30",
+      "src": "/gallary/cultural1.JPG",
+      "type": "image",
+      "category": "cultural",
+      "caption": "Individial Performance",
+      "featured": false
+    },
+    {
+      "id": "32",
+      "src": "/gallary/DSC04761.JPG",
+      "type": "image",
+      "category": "cultural",
+      "caption": "Individial Performance",
+      "featured": false
+    },
+
+    {
+      "id": "31",
+      "src": "/gallary/DSC05348.JPG",
+      "type": "image",
+      "category": "cultural",
+      "caption": "DJ Night",
+      "featured": false
+    },
+    {
+      "id": "33",
+      "src": "/gallary/dj_2.JPG",
+      "type": "image",
+      "category": "cultural",
+      "caption": "DJ Night",
+      "featured": true
+    },
+    {
+      "id": "34",
+      "src": "/gallary/dj_3.JPG",
+      "type": "image",
+      "category": "cultural",
+      "caption": "DJ Night",
+      "featured": false
+    },
+    {
+      "id": "36",
+      "src": "/gallary/posteriza.jpeg",
+       "type": "image",
+      "category": "technical",
+      "caption": "Posteriza event",
+      "featured": false
+    },
+    {
+      "id": "37",
+      "src": "/gallary/workshop10.jpeg",
+       "type": "image",
+      "category": "workshop",
+      "caption": "Workshop",
+      "featured": false
+    },
+    {
+      "id": "38",
+      "src": "/gallary/workshop11.jpeg",
+       "type": "image",
+      "category": "workshop",
+      "caption": "Workshop",
+      "featured": false
+    },
+    {
+      "id": "39",
+      "src": "/gallary/workshop12.jpeg",
+       "type": "image",
+      "category": "workshop",
+      "caption": "Workshop",
+      "featured": false
+    },{
+      "id": "40",
+      "src": "/gallary/workshop13.jpeg",
+       "type": "image",
+      "category": "workshop",
+      "caption": "Workshop",
+      "featured": false
+    }
+    
+
+  ]
+}

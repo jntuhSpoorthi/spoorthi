@@ -7,19 +7,19 @@ import fsPromises from "fs/promises";
 import path from "path";
 
 
-function Sponsors( props ) {
+function Sponsors(props) {
   const [index, setIndex] = useState(0);
   const tabs = props.tabs;
   return (
     <div className="h-fit w-screen bg-soothing_black">
       <Head>
-        <title>Spoorthi25 - Sponsors</title>
+        <title>Spoorthi26 - Sponsors</title>
       </Head>
       <Header id="navbar" />
       <main>
         <div className='h-[15rem] z-20 md:h-[20rem] bg-[url("/banner.png")] object-fill text-white font-clash tracking-wide font-black flex flex-col items-center justify-center'>
           <span className="text-[1rem] pt-12 md:pt-16 md:text-[4.5rem]">
-            SPOORTHI' 25
+            SPOORTHI' 26
           </span>
           <span className="text-[2.5rem] tracking-wider">OUR SPONSORS</span>
         </div>
@@ -32,14 +32,14 @@ function Sponsors( props ) {
                 </h1>
                 <div className="flex flex-wrap justify-evenly gap-16 w-fit h-fit pt-6 rounded-sm">
                   {section.members.map((member) => (
-                    <div 
-                      key={member.id} 
+                    <div
+                      key={member.id}
                       className="group relative w-[15rem] h-[15rem] overflow-hidden "
                     >
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <Image 
-                          src={member.img} 
-                          alt={member.name} 
+                        <Image
+                          src={member.img}
+                          alt={member.name}
                           fill
                           className="object-contain "
                           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -64,7 +64,7 @@ export async function getStaticProps() {
   const filePath = path.join(process.cwd(), "/sponsors.json");
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
-  return { 
-    props: objectData, 
+  return {
+    props: objectData,
   };
 }

@@ -4,14 +4,46 @@
       "name": "Present Sponsors",
       "sections": [
         {
-          "name": "Title Sponsors",
+          "name": "Sponsors",
           "members": [
             {
               "id": "1",
-              "name": "Mathworks",
-              "post": "Main Student Coordinator",
-              "img": "/sponsors/Mathworks.jpeg",
-              "website": "https://in.mathworks.com/"
+              "name": "Almuni",
+              "post": "",
+              "img": "/sponsors/alumni.png",
+              "website": ""
+            },
+            {
+              "id": "2",
+              "name": "Physitech",
+              "post": "",
+              "img": "/sponsors/Physitech.png",
+              "website": ""
+            },
+            {
+              "id": "3",
+              "name": "SBI",
+              "post": "",
+              "img": "/sponsors/SBI.png",
+              "website": ""
+            },
+            {
+              "id": "4",
+              "name": "OHM",
+              "post": "",
+              "img": "/sponsors/OHM.png",
+              "website": ""
+            }
+          ]
+        },
+        {
+          "name": "Workshop Sponser",
+          "members": [
+            {
+              "id": "w1",
+              "name": "Swecha",
+              "img": "/sponsors/Swecha.png",
+              "website": ""
             }
           ]
         },

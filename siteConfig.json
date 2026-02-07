@@ -1,0 +1,43 @@
+{
+  "festName": "SPOORTHI",
+  "currentYear": "2026",
+  "tagline": "National Level Technical Symposium",
+  "department": "Department of Electronics and Communication Engineering",
+  "college": "JNTUH University College of Engineering, Science and Technology Hyderabad",
+  "collegeShort": "JNTUHUCESTH",
+  "festDates": {
+    "startDate": "2026-04-08",
+    "endDate": "2026-04-09",
+    "displayText": "April 8th & 9th, 2026"
+  },
+  "countdownTarget": "2026-04-08T00:00:00",
+  "about": {
+    "spoorthi": "SPOORTHI is a national level Technical Symposium conducted by the Department of ECE, JNTUHUCESTH. Spoorthi started in 2004 as a technical fest and right from its inception, it has received immense response from students all over the state. Spoorthi offers a platform for students to compete with peers in a myriad of events that test their mettle & knowledge in Electronics and Communication Engineering. From technical competitions to cultural events, SPOORTHI offers a diverse range of activities that cater to everyone's interests.",
+    "college": "Jawaharlal Nehru Technological University of Hyderabad - University College of Engineering, Science and Technology Hyderabad, is one of the premier engineering colleges in the country. The college maintains high standards of education and places emphasis on practical exposure along with theoretical knowledge. The college churns hundreds of students every year who join the industry to excel in their chosen fields while striving for the technological achievement of the country."
+  },
+  "souvenir": {
+    "enabled": false,
+    "title": "SPOORTHI Souvenir",
+    "description": "Download our official fest souvenir - a collection of memories, articles, and achievements.",
+    "filePath": "/souvenir.pdf",
+    "coverImage": "/souvenir-cover.jpg",
+    "fileType": "pdf"
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/spoorthi__2026",
+    "facebook": "",
+    "twitter": "",
+    "youtube": "",
+    "email": "spoorthi@jntuh.ac.in"
+  },
+  "comingSoon": {
+    "enabled": true,
+    "message": "Event details and registrations will be updated soon. Stay tuned!"
+  },
+  "gallery": {
+    "title": "PAST FEST MEMORIES",
+    "subtitle": "Relive the magic from our previous editions",
+    "eventSectionTitle": "Previous Highlights",
+    "eventSectionSubtitle": "See what this event looked like in our previous editions"
+  }
+}
