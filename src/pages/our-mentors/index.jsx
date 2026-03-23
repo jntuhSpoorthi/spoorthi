@@ -12,14 +12,14 @@ function Team(props) {
   return (
     <div className="h-fit w-screen bg-soothing_black">
       <Head>
-        <title>Spoorthi25 - Mentors</title>
+        <title>Spoorthi26 - Mentors</title>
       </Head>
       <Header id="navbar" />
 
       <main>
         <div className='h-[15rem] z-20 md:h-[20rem] bg-[url("/banner.png")]  object-fill text-white font-clash tracking-wide font-black flex flex-col items-center justify-center'>
           <span className="text-[1rem] pt-12 md:pt-16 md:text-[4.5rem]">
-            SPOORTHI' 25
+            SPOORTHI' 26
           </span>
           <span className="text-[2.5rem] tracking-wider">OUR MENTORS</span>
         </div>
@@ -50,7 +50,7 @@ function Team(props) {
                           <h1 className=" text-white font-chakra font-semibold text-[1.5rem] pt-4">
                             {member.name}
                           </h1>
-                          <p className="text-white font-chakra font-medium text-[1rem]">
+                          <p className="text-white font-chakra font-medium text-[1rem] whitespace-pre-line">
                             {member.post}
                           </p>
                         </div>

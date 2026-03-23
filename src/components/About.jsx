@@ -61,26 +61,18 @@ export default function About({ siteConfig }) {
           <b>{festName}'{shortYear}</b> {aboutSpoorthiText}
         </span>
       </div>
-      <div className="absolute font-clash font-bold text-white">
+      <div className="relative font-clash font-bold text-white">
         <span className="flex gap-6 text-[3rem] sm:text-[3.5rem] md:text-[4rem] lg:text-[4.5rem] xl:text-[5rem]">
           About <Navlink name={"JNTUH"} link={"/#about"} />{" "}
         </span>
       </div>
       <div
         ref={aboutjntuh}
-        className="flex flex-col mt-8 lg:flex-row items-center gap-8 py-8"
+        className="mt-2 py-2"
       >
         <p className="text-white text-base xl:text-xl font-chakra font-medium">
           {aboutCollegeText}
         </p>
-
-        <video
-          src="/About2.mp4"
-          autoPlay
-          loop
-          muted
-          className="abvideo w-[22rem] h-[20rem] md:w-[24rem] xl:w-[28rem] xl:h-[18rem] object-cover rounded-2xl border border-gray/50"
-        ></video>
       </div>
     </div>
   );

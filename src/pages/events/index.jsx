@@ -9,10 +9,11 @@ import path from "path";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/all";
 
-export default function Events({ posts, names }) {
+export default function Events({ posts, names, siteConfig }) {
   const [index, setIndex] = useState(0);
   const individualPosts = posts[index];
   const animate = useRef(null);
+  const comingSoonTabs = siteConfig?.events?.comingSoonTabs || [];
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -59,7 +60,17 @@ export default function Events({ posts, names }) {
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 p-6">
-          {individualPosts.length > 0 ? (
+          {comingSoonTabs.includes(index) ? (
+            <div className="flex flex-col items-center justify-center py-16 px-4">
+              <div className="text-6xl mb-6">📣</div>
+              <h2 className="text-white font-clash font-semibold text-3xl md:text-4xl mb-4 text-center">
+                Coming Soon
+              </h2>
+              <p className="text-white/60 font-chakra text-lg md:text-xl text-center max-w-md">
+                Event details for this category will be announced soon. Stay tuned!
+              </p>
+            </div>
+          ) : individualPosts.length > 0 ? (
             individualPosts.map((post) => (
               <div
                 ref={animate}
@@ -94,10 +105,15 @@ export async function getStaticProps() {
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
 
+  const siteConfigPath = path.join(process.cwd(), "/siteConfig.json");
+  const siteConfigData = await fsPromises.readFile(siteConfigPath);
+  const siteConfig = JSON.parse(siteConfigData);
+
   return {
     props: {
       posts: objectData.posts,
       names: objectData.names,
+      siteConfig,
     },
   };
 }

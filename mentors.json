@@ -3,12 +3,13 @@
         {
           "name": "Chair person",
           "members": [
-            {
-              "id": "mentor1",
-              "name": "Dr. A. Rajani",
-              "post": "Professor & Head",
-              "img": "/mentors/Rajani.jpg",
-              "insta": ""
+           {
+              "id": "mentor2",
+              "name": "Dr. T. Madhavi Kumari",
+              "post": "Professor & Head of ECE",
+              "img": "/mentors/MadhaviKumari.jpg",
+              "insta": "",
+              "linkedin": ""
             }
           ]
         },
@@ -16,10 +17,10 @@
           "name": "Faculty Co-ordinator",
           "members": [
             {
-              "id": "mentor2",
-              "name": "Dr. T. Madhavi Kumari",
-              "post": "Assoc. Professor",
-              "img": "/mentors/MadhaviKumari.jpg",
+              "id": "mentor7",
+              "name": "Dr. Anitha Sheela Kancharla",
+              "post": "Professor & BOS Chairperson of ECE, \n Director - UIIC, JNTUH",
+              "img": "/mentors/AnithaSheela.jpg",
               "insta": "",
               "linkedin": ""
             }
@@ -55,27 +56,19 @@
             {
               "id": "mentor6",
               "name": "Dr. T. Satya Savithri",
-              "post": "Sr. Professor",
+              "post": "Sr. Professor of ECE,\n Director R&D Cell, JNTUH",
               "img": "/mentors/SatyaSavitri.jpeg",
               "insta": "",
               "linkedin": ""
             },
-            {
-              "id": "mentor7",
-              "name": "Dr. Anitha Sheela Kancharla",
+             {
+              "id": "mentor1",
+              "name": "Dr. A. Rajani",
               "post": "Professor",
-              "img": "/mentors/AnithaSheela.jpg",
-              "insta": "",
-              "linkedin": ""
-            },
-            {
-              "id": "mentor8",
-              "name": "Dr. L. Pratap Reddy",
-              "post": "Professor",
-              "img": "/mentors/PratapReddy.jpg",
-              "insta": "",
-              "linkedin": ""
+              "img": "/mentors/Rajani.jpg",
+              "insta": ""
             }
+            
           ]
         }
       ]

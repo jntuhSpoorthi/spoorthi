@@ -112,7 +112,7 @@ function EventsDetails(props) {
                     <div className="bg-white/5 border border-white/10 rounded-lg p-4">
                       <p className="text-white/60 text-sm md:text-base">
                         📢 Detailed information for SPOORTHI 2026 will be announced soon.
-                        Check out our 2025 gallery below to see what this event looks like!
+                        Check out our previous gallery below to see what this event looks like!
                       </p>
                     </div>
                   )}
@@ -131,7 +131,7 @@ function EventsDetails(props) {
                       {props.regfee != false && (
                         <span className="font-normal"> ₹{props.regfee}</span>
                       )}
-                      <span className="font-normal text-main_primary"> April 8-9, 2026</span>
+                      <span className="font-normal text-main_primary"> {props.eventDateString}</span>
                     </div>
                   </div>
 
@@ -278,6 +278,7 @@ export async function getStaticProps(context) {
       regfee: post.regfee,
       pricepool: post.pricepool,
       enddate: post.enddate,
+      eventDateString: post.eventDateString,
       register: post.reg,
       reglink: post.reglink,
       reg: post.reg,
