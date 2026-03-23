@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Header from "@/components/Header";
@@ -8,7 +7,7 @@ import path from "path";
 
 
 function Sponsors(props) {
-  const [index, setIndex] = useState(0);
+  const index = 0;
   const tabs = props.tabs;
   return (
     <div className="h-fit w-screen bg-soothing_black">
