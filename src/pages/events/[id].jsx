@@ -126,40 +126,44 @@ function EventsDetails(props) {
                     </div>
                     <div className="flex flex-col text-white font-bold">
                       {props.pricepool != false && (
-                        <span className="font-normal"> ₹{props.pricepool}</span>
+                        <span className="font-normal"> {String(props.pricepool).startsWith('₹') ? props.pricepool : `₹${props.pricepool}`}</span>
                       )}
                       {props.regfee != false && (
-                        <span className="font-normal"> ₹{props.regfee}</span>
+                        <span className="font-normal"> {String(props.regfee).startsWith('₹') ? props.regfee : `₹${props.regfee}`}</span>
                       )}
                       <span className="font-normal text-main_primary"> {props.eventDateString}</span>
                     </div>
                   </div>
 
                   {/* Coordinator Details */}
-                  <h3 className="text-white text-lg md:text-xl font-sans font-bold mb-1 mt-4">
-                    Coordinator Details
-                  </h3>
+                  {props.c1name && props.c1name !== false && (
+                    <>
+                      <h3 className="text-white text-lg md:text-xl font-sans font-bold mb-1 mt-4">
+                        Coordinator Details
+                      </h3>
 
-                  <div className="flex gap-2 text-sm md:text-[1.1rem] tracking-wide w-fit font-medium">
-                    <div className="flex flex-col pr-4 text-white/70">
-                      <span>{props.c1name} :</span>
-                      {props.c2name != false && <span>{props.c2name} :</span>}
-                    </div>
-                    <div className="flex flex-col text-white font-bold">
-                      <Link href={`tel:${props.c1number}`}>
-                        <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
-                          {props.c1number}
-                        </span>
-                      </Link>
-                      {props.c2number && (
-                        <Link href={`tel:${props.c2number}`}>
-                          <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
-                            {props.c2number}
-                          </span>
-                        </Link>
-                      )}
-                    </div>
-                  </div>
+                      <div className="flex gap-2 text-sm md:text-[1.1rem] tracking-wide w-fit font-medium">
+                        <div className="flex flex-col pr-4 text-white/70">
+                          <span>{props.c1name} :</span>
+                          {props.c2name && props.c2name !== false && <span>{props.c2name} :</span>}
+                        </div>
+                        <div className="flex flex-col text-white font-bold">
+                          <Link href={`tel:${props.c1number}`}>
+                            <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
+                              {props.c1number}
+                            </span>
+                          </Link>
+                          {props.c2number && (
+                            <Link href={`tel:${props.c2number}`}>
+                              <span className="font-normal hover:text-main_primary transition duration-300 ease-in-out">
+                                {props.c2number}
+                              </span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
 
                 {/* Registration Button */}

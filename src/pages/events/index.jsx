@@ -9,11 +9,10 @@ import path from "path";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/all";
 
-export default function Events({ posts, names, siteConfig }) {
+export default function Events({ posts, names }) {
   const [index, setIndex] = useState(0);
   const individualPosts = posts[index];
   const animate = useRef(null);
-  const comingSoonTabs = siteConfig?.events?.comingSoonTabs || [];
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -60,39 +59,23 @@ export default function Events({ posts, names, siteConfig }) {
         </div>
 
         <div className="flex flex-wrap justify-center gap-8 p-6">
-          {comingSoonTabs.includes(index) ? (
-            <div className="flex flex-col items-center justify-center py-16 px-4">
-              <div className="text-6xl mb-6">📣</div>
-              <h2 className="text-white font-clash font-semibold text-3xl md:text-4xl mb-4 text-center">
-                Coming Soon
-              </h2>
-              <p className="text-white/60 font-chakra text-lg md:text-xl text-center max-w-md">
-                Event details for this category will be announced soon. Stay tuned!
-              </p>
+          {individualPosts.map((post) => (
+            <div
+              ref={animate}
+              className="relative w-[15rem] h-[20rem] hover:scale-105 rounded-md overflow-hidden hover:shadow-lg hover:shadow-main_primary/80 transition-all duration-500 ease-in-out"
+              key={post.id}
+            >
+              <Link href={`/events/${post.id}`}>
+                <Image
+                  src={post.img}
+                  width={600}
+                  height={800}
+                  alt="Event's Image"
+                  className="cursor-pointer object-fill transform transition-all duration-500 ease-in-out"
+                />
+              </Link>
             </div>
-          ) : individualPosts.length > 0 ? (
-            individualPosts.map((post) => (
-              <div
-                ref={animate}
-                className="relative w-[15rem] h-[20rem] hover:scale-105 rounded-md overflow-hidden hover:shadow-lg hover:shadow-main_primary/80 transition-all duration-500 ease-in-out"
-                key={post.id}
-              >
-                <Link href={`/events/${post.id}`}>
-                  <Image
-                    src={post.img}
-                    width={600}
-                    height={800}
-                    alt="Event's Image"
-                    className="cursor-pointer object-fill transform transition-all duration-500 ease-in-out"
-                  />
-                </Link>
-              </div>
-            ))
-          ) : (
-            <div className="text-white font-semibold font-chakra text-2xl py-8">
-              Coming Soon...
-            </div>
-          )}
+          ))}
         </div>
       </main>
       <Footer />
@@ -105,15 +88,10 @@ export async function getStaticProps() {
   const jsonData = await fsPromises.readFile(filePath);
   const objectData = JSON.parse(jsonData);
 
-  const siteConfigPath = path.join(process.cwd(), "/siteConfig.json");
-  const siteConfigData = await fsPromises.readFile(siteConfigPath);
-  const siteConfig = JSON.parse(siteConfigData);
-
   return {
     props: {
       posts: objectData.posts,
       names: objectData.names,
-      siteConfig,
     },
   };
 }

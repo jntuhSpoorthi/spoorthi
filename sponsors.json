@@ -24,7 +24,7 @@
               "id": "3",
               "name": "SBI",
               "post": "",
-              "img": "/sponsors/SBI.png",
+              "img": "/sponsors/ICICI_bank.svg",
               "website": ""
             },
             {
@@ -37,24 +37,25 @@
           ]
         },
         {
-          "name": "Workshop Sponser",
+          "name": "Workshop & Hackathon Partners",
           "members": [
             {
               "id": "w1",
-              "name": "Swecha",
-              "img": "/sponsors/Swecha.png",
-              "website": ""
-            }
-          ]
-        },
-        {
-          "name": "Student  outreach   partner",
-          "members": [
+              "name": "Physitech",
+              "img": "/sponsors/Physitech.png",
+              "website": "https://physitech.in/"
+            },
             {
-              "id": "2",
-              "name": "StudentTribe",
-              "img": "/sponsors/studentTribe.png",
-              "website": "https://studenttribe.in/"
+              "id": "w2",
+              "name": "MathWorks",
+              "img": "/sponsors/Mathworks.jpeg",
+              "website": "https://in.mathworks.webp/"
+            },  
+            {
+              "id": "w3",
+              "name": "BrainOvision",
+              "img": "/sponsors/BrainOvision.png",
+              "website": "https://brainovision.in/"
             }
           ]
         }

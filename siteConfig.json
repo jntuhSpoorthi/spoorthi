@@ -31,14 +31,14 @@
     "email": "spoorthi@jntuh.ac.in"
   },
   "comingSoon": {
-    "enabled": true,
+    "enabled": false,
     "message": "Event details and registrations will be updated soon. Stay tuned!"
   },
   "teams": {
     "showUpdatingSoon": true
   },
   "events": {
-    "comingSoonTabs": [0, 1, 2]
+    "comingSoonTabs": []
   },
   "gallery": {
     "title": "PAST FEST MEMORIES",
